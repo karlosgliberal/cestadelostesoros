@@ -67,7 +67,7 @@ min-height: 800px;
 }
 
 
-#ocho {
+#siete {
 	background: url("../img/textura-descubre.png") repeat;
 	min-height: 800px;
 
@@ -157,6 +157,8 @@ width: 35%;
 
 .menu-logo {
 	float: right;
+	height: 41px;
+	background-color: #000;
 }
 .img-menu li {
 	display: inline;
@@ -214,13 +216,10 @@ section#siete .title-wrapper
 }
 
 .uno {
-
 padding: 0px 5px 0px 0px;
-
 }
 
 .dos {
-
 padding: 0;
 }
 

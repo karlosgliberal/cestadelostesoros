@@ -23,6 +23,10 @@ p {
 
 /*Sections*/
 
+section {
+padding-top: 70px;
+}
+
 #uno {
 background-color: #fff;
 min-height: 900px;

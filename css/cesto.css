@@ -1,0 +1,232 @@
+
+/*h2 {
+    font-family: "Georgia", serif;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    font-weight: bold;
+    color: #595959;
+}*/
+
+
+@font-face {
+	font-family: 'Tesoro';
+	src: url('../fonts/FairpNarBooIta.eot');
+	src: local('☺'), url('../fonts/FairpNarBooIta.woff') format('woff'), url('../fonts/FairpNarBooIta.ttf') format('truetype'), url('../fonts/FairpNarBooIta.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+p {
+	font-family: "Georgia", serif;
+	font-size: 17px;
+	color: #595959;
+
+}
+
+/*Sections*/
+
+#uno {
+background-color: #fff;
+min-height: 900px;
+}
+
+#dos {
+background-color: #FBE9D3;
+min-height: 1000px;
+}
+
+#tres {
+background-color: #DBDCD5;
+min-height: 1000px;
+}
+
+#cuatro {
+background-color: #fff;
+background: url("../img/textura.png") repeat;
+min-height: 1000px;
+}
+
+
+#cinco {
+background: #cbcbcb; 
+background: -moz-linear-gradient(top,  #cbcbcb 0%, #ffffff 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cbcbcb), color-stop(100%,#ffffff)); 
+background: -webkit-linear-gradient(top,  #cbcbcb 0%,#ffffff 100%); 
+background: -o-linear-gradient(top,  #cbcbcb 0%,#ffffff 100%); 
+background: -ms-linear-gradient(top,  #cbcbcb 0%,#ffffff 100%); 
+background: linear-gradient(to bottom,  #cbcbcb 0%,#ffffff 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbcbcb', endColorstr='#ffffff',GradientType=0 ); 
+min-height: 800px;
+}
+
+#seis {
+background-color: #D3D8DB;
+min-height: 800px;
+}
+
+
+#footer {
+	height: 275px;
+	background: url("../img/textura-f.png") repeat-x;
+}
+
+
+/*Menu*/
+
+#menu{
+    width: 100%;
+    background-color: #000;
+    font-family: "Georgia", serif;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    height: 45px;
+    padding: 0;
+  
+    
+}
+
+.section-nav {
+    text-align: center;
+    font-weight: normal;
+} 
+
+.section-nav ul {
+    clear: both;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+   
+}
+
+.section-nav .active {
+    color: #F71D31 ;
+}
+
+.section-nav li {
+    background-color: #000000;
+    display: inline-block;
+    font-size: 1em;
+    padding: 10px 7px;
+    
+   }
+
+.section-nav a {
+    color: #fff;
+    outline: 0 none;
+    text-decoration: none;
+ 
+}
+
+.section-nav a:hover {
+    color: #F71D31;
+    transition: all 400ms ease 0s;
+}
+
+
+#section-nav {
+float: left;
+width: 65%;
+}
+
+li.control {
+
+}
+
+ul.img-menu{
+float: left;
+width: 35%;
+
+}
+
+.l-objek {
+
+}
+
+.logo-w {
+	float: left;
+}
+
+.menu-logo {
+	float: right;
+}
+.img-menu li {
+	display: inline;
+}
+
+.menu-objek {
+
+}
+
+
+/*H1 H2 */
+
+h2.tit {
+margin: 0;	
+padding: 0px 0px 0px 5px;
+font-family: "Georgia",serif;
+font-style: normal;
+font-weight: bold;	
+color: #595959;
+font-size: 2.7em;
+letter-spacing: -2px;
+	transform: scale(1, 1.2); /* Safari and Chrome */
+    -webkit-transform:scale(1, 1.2); /* Safari and Chrome */
+    -moz-transform:scale(1, 1.2); /* Firefox */
+    -ms-transform:scale(1, 1.2); /* IE 9 */
+    -o-transform:scale(1, 1.2); /* Opera */
+}
+
+h2.tesoro
+
+{
+font-family:'Tesoro',Sans-Serif;
+font-style: normal;
+font-size: 3.5em;
+color: #595959;
+font-weight: normal;
+position: relative;
+top: -8px;
+text-align: right;
+margin: 0;
+}
+
+
+section#dos .title-wrapper {
+padding-top: 50px;
+}
+
+section#tres .title-wrapper,
+section#cuatro .title-wrapper,
+section#cinco .title-wrapper,
+section#seis .title-wrapper,
+section#siete .title-wrapper
+ {
+    padding-top: 100px;
+}
+
+.uno {
+
+padding: 0px 5px 0px 0px;
+
+}
+
+.dos {
+
+padding: 0;
+}
+
+
+.pre {
+	font-family: "Georgia",serif;
+    font-size: 1.7em;
+    color: #595959;
+    padding: 0px 0px 0px 5px;
+    margin-bottom: 10px;
+}
+
+.img-principal {
+	position: relative;
+	left: -10px;
+	margin: 60px 0px 70px 0px;
+}

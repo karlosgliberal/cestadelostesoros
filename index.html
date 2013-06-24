@@ -117,22 +117,26 @@
  -->
  <div class="row como"> 
  <div class="large-12"> 
+  <div id="nav">
   <ul class="disc s-como">
-    <li><a href="#"><img src="img/como1.png" alt="Como utilizarlo">Antes de que el bebe se siente</a></li>
-    <li><a href="#"><img src="img/como2.png" alt="Como utilizarlo">El bebé se sienta, pero todabía no anda</a></li>
-    <li><a href="#"><img src="img/como3.png" alt="Como utilizarlo">Comienza la fase de movimiento</a></li>
+    <li><a id="tumbado" href="#"><img src="img/como1.png" alt="Como utilizarlo">Antes de que el bebe se siente</a></li>
+    <li><a id="sentado" href="#"><img src="img/como2.png" alt="Como utilizarlo">El bebé se sienta, pero todabía no anda</a></li>
+    <li><a id="mueve" href="#"><img src="img/como3.png" alt="Como utilizarlo">Comienza la fase de movimiento</a></li>
   </ul>
-<ul class="como-texto">
-  <li>
-    <p>Antes de que el bebe se siente el  bebé muestra gran interés por todo lo que ocurre a su alrededor, se mantienen atento a su entorno y a la espera de lo próximo que va a ocurrir; está preparado e impaciente por aprender. Sin embargo, los juguetes dirigidos a esta edad suelen ser muy limitados. </p>
-  </li>
-  <li>
-    <p>Pero todabía no anda muestra gran interés por todo lo que ocurre a su alrededor, se mantienen atento a su entorno y a la espera de lo próximo que va a ocurrir; está preparado e impaciente por aprender. ser muy limitados. </p>
-  </li>
-  <li>
-    <p>Los juguetes de movimiento bebé muestra gran interés por todo lo que ocurre a su alrededor, se mantienen atento a su entorno ocurrir; está preparado e impaciente por aprender. Sin embargo, los juguetes dirigidos a esta edad suelen ser muy limitados. </p>
-  </li>
-</ul>
+  </div>
+  <div id="slideshows">
+  <ul class="como-texto" id="slideshow">
+    <li>
+      <p>Antes de que el bebe se siente el  bebé muestra gran interés por todo lo que ocurre a su alrededor, se mantienen atento a su entorno y a la espera de lo próximo que va a ocurrir; está preparado e impaciente por aprender. Sin embargo, los juguetes dirigidos a esta edad suelen ser muy limitados. </p>
+    </li>
+    <li>
+      <p>Pero todabía no anda muestra gran interés por todo lo que ocurre a su alrededor, se mantienen atento a su entorno y a la espera de lo próximo que va a ocurrir; está preparado e impaciente por aprender. ser muy limitados. </p>
+    </li>
+    <li>
+      <p>Los juguetes de movimiento bebé muestra gran interés por todo lo que ocurre a su alrededor, se mantienen atento a su entorno ocurrir; está preparado e impaciente por aprender. Sin embargo, los juguetes dirigidos a esta edad suelen ser muy limitados. </p>
+    </li>
+  </ul>
+  </div>
 </div>
 </div>
   </section>
@@ -212,7 +216,11 @@
   '.js><\/script>')
   </script>
   
-  <script src="js/foundation.min.js"></script>
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/jquery.cycle.all.js"></script>
+  <script src="js/vendor/jquery.easing.js"></script>
+  <script src="js/vendor/foundation.min.js"></script>
+  <script src="js/app.js"></script>
   
   <script>
     $(document).foundation();

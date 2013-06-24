@@ -84,12 +84,12 @@ min-height: 800px;
 
 #siete {
 	background: url("../img/textura-descubre.png") repeat;
-	min-height: 800px;
+	min-height: 900px;
 
 }
 
 #footer {
-	height: 275px;
+	min-height: 275px;
 	background: url("../img/textura-f.png") repeat-x;
 }
 
@@ -282,39 +282,10 @@ opacity: 0.3;
 
 .comprar {
 	text-align: center;
-	margin: 85px 0px; 
-}
-
-a.btn-comprar {
-background: #e6338c; 
-background: -moz-linear-gradient(top,  #e6338c 0%, #cd2b7d 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6338c), color-stop(100%,#cd2b7d)); 
-background: -webkit-linear-gradient(top,  #e6338c 0%,#cd2b7d 100%); 
-background: -o-linear-gradient(top,  #e6338c 0%,#cd2b7d 100%); 
-background: -ms-linear-gradient(top,  #e6338c 0%,#cd2b7d 100%);
-background: linear-gradient(to bottom,  #e6338c 0%,#cd2b7d 100%); 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6338c', endColorstr='#cd2b7d',GradientType=0 ); 
-text-align: center;
-border-radius: 6px 6px;
-height: 60px;
-color: #fff;
-font-size: 23px;
-font-style: italic;
-font-weight: normal;
-height: 60px;
-letter-spacing: 1px;
-padding: 18px 35px;
-text-align: center;
+    padding-top: 60px;
 
 }
 
-a.btn-comprar:hover {
-background: -moz-linear-gradient(top,  #cd2b7d 0%, #cd2b7d 100%);
-background: -webkit-linear-gradient(top,  #cd2b7d 0%, #cd2b7d 100%);
-background: -o-linear-gradient(top,  #cd2b7d 0%, #cd2b7d 100%);
-background: -ms-linear-gradient(top,  #cd2b7d 0%, #cd2b7d 100%);
-
-}
 
 .sub-descubre {
     text-align: center;
@@ -325,12 +296,37 @@ background: -ms-linear-gradient(top,  #cd2b7d 0%, #cd2b7d 100%);
 }
 
 
+section#footer {
+    padding: 30px 0px;
+    margin: 0;
+}
+
+
 #footer p {
     color:#fff;
+    font-style: italic;
+    padding-left: 3px;
+    font-size: 16px;
+
 }
 
 #footer h3 {
     color:#fff;
-    font-family: "Georgia" Sans-Serif;
-    font-size: 2em;
+font-size: 2.3em;
+letter-spacing: 1px;
+    transform: scale(1, 1.2); /* Safari and Chrome */
+    -webkit-transform:scale(1, 1.2); /* Safari and Chrome */
+    -moz-transform:scale(1, 1.2); /* Firefox */
+    -ms-transform:scale(1, 1.2); /* IE 9 */
+    -o-transform:scale(1, 1.2); /* Opera */
 }
+
+#footer a:hover {
+    color: #F94600;
+    opacity: 0.9;
+}
+
+#footer .logo {
+    padding-top: 80px;
+}
+

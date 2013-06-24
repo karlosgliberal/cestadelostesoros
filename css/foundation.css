@@ -14,7 +14,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1038,11 +1038,11 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #2ba6cb;
+  color: #fff;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #2795b6; }
+    color: #F94600; }
   a img {
     border: none; }
 
@@ -1061,7 +1061,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Georgia", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-style: normal;
   color: #222222;
@@ -1309,9 +1309,9 @@ button, .button {
   border-width: 1px;
   cursor: pointer;
   font-family: inherit;
-  font-weight: bold;
   line-height: 1;
   margin: 0 0 1.25em;
+  font-style: italic;
   position: relative;
   text-decoration: none;
   text-align: center;
@@ -1320,14 +1320,27 @@ button, .button {
   padding-right: 1.5em;
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
-  font-size: 1em;
-  background-color: #2ba6cb;
-  border-color: #2284a1;
-  color: white; }
+  font-size: 2em;
+  color: white; 
+background: #e6338c; 
+background: -moz-linear-gradient(top,  #e6338c 0%, #cd2b7d 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6338c), color-stop(100%,#cd2b7d)); 
+background: -webkit-linear-gradient(top,  #e6338c 0%,#cd2b7d 100%); 
+background: -o-linear-gradient(top,  #e6338c 0%,#cd2b7d 100%); 
+background: -ms-linear-gradient(top,  #e6338c 0%,#cd2b7d 100%);
+background: linear-gradient(to bottom,  #e6338c 0%,#cd2b7d 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6338c', endColorstr='#cd2b7d',GradientType=0 ); 
+}
   button:hover, button:focus, .button:hover, .button:focus {
     background-color: #2284a1; }
   button:hover, button:focus, .button:hover, .button:focus {
-    color: white; }
+background: -moz-linear-gradient(top,  #cd2b7d 0%, #cd2b7d 100%);
+background: -webkit-linear-gradient(top,  #cd2b7d 0%, #cd2b7d 100%);
+background: -o-linear-gradient(top,  #cd2b7d 0%, #cd2b7d 100%);
+background: -ms-linear-gradient(top,  #cd2b7d 0%, #cd2b7d 100%);
+color:#fff;
+
+     }
   button.secondary, .button.secondary {
     background-color: #e9e9e9;
     border-color: #d0d0d0;
@@ -1357,7 +1370,7 @@ button, .button {
     padding-right: 2em;
     padding-bottom: 1.0625em;
     padding-left: 2em;
-    font-size: 1.25em; }
+    font-size: 1.3em; }
   button.small, .button.small {
     padding-top: 0.5625em;
     padding-right: 1.125em;
@@ -1465,8 +1478,8 @@ button, .button {
       -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;
       box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; }
     button.radius, .button.radius {
-      -webkit-border-radius: 3px;
-      border-radius: 3px; }
+      -webkit-border-radius: 6px;
+      border-radius: 6px; }
     button.round, .button.round {
       -webkit-border-radius: 1000px;
       border-radius: 1000px; } }

@@ -256,10 +256,6 @@ ul.s-como li {
 }
 
 
-.como a:hover {
-opacity: 0.3;
-}
-
 
 .descubre-circulo {
 	border: 10px solid #E2338C;
@@ -330,3 +326,62 @@ letter-spacing: 1px;
     padding-top: 80px;
 }
 
+/*
+Movimiento */
+
+
+a#tumbado,
+a#sentado,
+a#mueve
+ {
+color: #595959;
+font-size: 1.5em;
+font-weight: bold;
+letter-spacing: -1px;
+}
+
+a#tumbado .active {
+    color: red;
+}
+
+.como1 {
+    background: url("../img/como1.png") no-repeat center;
+    height: 200px;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.como2{
+    background: url("../img/como2.png") no-repeat center;
+    height: 200px;
+   margin: 0 auto;
+     text-align: center;
+}
+
+.como3 {
+      background: url("../img/como3.png") no-repeat center;
+    height: 200px;
+   margin: 0 auto;  
+     text-align: center;
+}
+
+
+.texto-como {
+    padding: 81px 28px;
+
+}
+
+.texto-como p {
+   font-size: 1.2em; 
+   font-style: italic;
+}
+
+.c-enlace {
+        position: absolute;
+    top: 190px;
+       width: 33%;
+}
+
+a#sentado:hover {
+   background-color: red;
+}

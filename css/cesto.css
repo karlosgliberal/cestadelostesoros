@@ -60,7 +60,7 @@ min-height: 1000px;
 #cuatro {
 background-color: #fff;
 background: url("../img/textura.png") repeat;
-min-height: 1000px;
+min-height: 800px;
 }
 
 
@@ -334,25 +334,21 @@ a#tumbado,
 a#sentado,
 a#mueve
  {
-color: #595959;
 font-size: 1.5em;
 font-weight: bold;
 letter-spacing: -1px;
 }
 
-a#tumbado .active {
-    color: red;
-}
 
 .como1 {
-    background: url("../img/como1.png") no-repeat center;
+    background: url("../img/como1-off.png") no-repeat center;
     height: 200px;
    margin: 0 auto;
    text-align: center;
 }
 
 .como2{
-    background: url("../img/como2.png") no-repeat center;
+    background: url("../img/como2-off.png") no-repeat center;
     height: 200px;
    margin: 0 auto;
      text-align: center;
@@ -367,7 +363,7 @@ a#tumbado .active {
 
 
 .texto-como {
-    padding: 81px 28px;
+   padding: 16px 28px;
 
 }
 
@@ -377,11 +373,32 @@ a#tumbado .active {
 }
 
 .c-enlace {
-        position: absolute;
-    top: 190px;
-       width: 33%;
+text-align: center;
+
 }
 
-a#sentado:hover {
-   background-color: red;
+#cuatro a {
+   
+    color: #B0B0B0;
 }
+
+
+#cuatro li.exp a:focus .como1 {
+    background: url("../img/como1.png") no-repeat center;
+     color: #595959;
+}
+
+#cuatro li.exp a:focus .como2 {
+    background: url("../img/como2.png") no-repeat center;
+     color: #595959;
+}
+
+#cuatro li.exp a:focus .como3 {
+    background: url("../img/como3.png") no-repeat center;
+     color: #595959;
+}
+
+#cuatro a:focus {
+    color: #595959;
+}
+

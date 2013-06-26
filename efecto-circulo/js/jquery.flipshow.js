@@ -216,6 +216,7 @@
 			} );
 
 			$navRight.find( 'span' ).on( 'click.flipshow touchstart.flipshow', function() {
+						console.log($(this));
 				self._navigate( $( this ), 'right' );
 			} );
 

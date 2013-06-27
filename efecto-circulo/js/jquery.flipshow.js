@@ -216,7 +216,6 @@
 			} );
 
 			$navRight.find( 'span' ).on( 'click.flipshow touchstart.flipshow', function() {
-						console.log($(this));
 				self._navigate( $( this ), 'right' );
 			} );
 
@@ -236,17 +235,19 @@
 				return false;
 			}
 			this.isAnimating = true;
-			
 			var $currentItem = this.$items.eq( this.current ).hide();
 
 			if( dir === 'right' ) {
-				this.current < this.itemsCount - 1 ? ++this.current : this.current = 0;
+				//this.current < this.itemsCount - 1 ? ++this.current : this.current = 0;
+				this.current = 5;
 			}
 			else if( dir === 'left' ) {
-				this.current > 0 ? --this.current : this.current = this.itemsCount - 1;
+				this.current = 5;
+				//this.current > 0 ? --this.current : this.current = this.itemsCount - 1;
 			}
 
 			var $nextItem = this.$items.eq( this.current );
+					console.log(this.current);
 
 			if( this.support ) {
 				this._flip( $currentItem, $nextItem, dir, $nav.index() );
@@ -308,6 +309,7 @@
 				$overlayDark.css( 'opacity', dir === 'right' ? 0 : 1 );
 				self.$flipEl.on( self.transEndEventName, function( event ) {
 					if( event.target.className === 'fc-overlay-light' || event.target.className === 'fc-overlay-dark' ) return;
+							console.log($nextItem);
 					self._ontransitionend( $nextItem );
 				} );
 

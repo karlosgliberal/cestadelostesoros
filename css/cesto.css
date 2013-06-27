@@ -45,11 +45,15 @@ padding-top: 70px;
 #uno {
 background-color: #fff;
 min-height: 900px;
+background-size: cover;
+background-image: url("../img/bg-uno.jpg");
 }
 
 #dos {
 background-color: #FBE9D3;
 min-height: 1000px;
+background-size: cover;
+background-image: url("../img/bg-dos.jpg");
 }
 
 #tres {
@@ -79,6 +83,8 @@ min-height: 800px;
 #seis {
 background-color: #D3D8DB;
 min-height: 800px;
+background-size: cover;
+background-image: url("../img/bg-observa.jpg");
 }
 
 

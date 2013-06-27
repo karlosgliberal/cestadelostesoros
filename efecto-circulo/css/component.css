@@ -4,7 +4,7 @@
 	position: relative;
 	width: 400px;
 	height: 400px;
-	box-shadow: inset 0 0 3px rgba(0,0,0,0.4), 0 0 0 10px #cc2724;
+	box-shadow: inset 0 0 3px rgba(0,0,0,0.4), 0 0 0 8px #F74300;
 	border-radius: 50%;
 	margin: 0 auto;
 	-webkit-perspective: 1200px;
@@ -39,7 +39,6 @@
 	position: absolute;
 	left: 0;
 	cursor: pointer;
-	border: 1px solid;
 }
 
 .fc-slideshow nav > div span:first-child {
@@ -97,6 +96,9 @@
 	-moz-transform-origin: 100% 50%;
 	transform-origin: 100% 50%;
 	text-align: left;
+/*	width: 200px;
+	height: 3px;
+	background-color: #F74300;*/
 }
 
 .fc-slideshow nav .fc-right i {
@@ -124,29 +126,28 @@
 
 .icon-arrow-left:before, 
 .icon-arrow-right:before {
-	font-family: 'entypo';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 20px;
-	background: #cc2724;
+	font-size: 1px;
+	background: #F74300;
 	color: #fff;
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
+	width: 15px;
+	height: 15px;
+	line-height: 22px;
 	text-align: center;
 	display: inline-block;
 	margin: 0 20px;
-	border-radius: 20% 10% 50% 5% / 25% 10% 30% 75%;
+	border-radius: 50% 50%;
 	-webkit-font-smoothing: antialiased;
 }
 
 .icon-arrow-left:before {
-	content: "\e002";
+	content: "<";
 }
 
 .icon-arrow-right:before {
-	content: "\e003";
+	content: ">";
 }
 
 .csstransforms3d .fc-slideshow nav > div span:hover ~ i,
@@ -219,9 +220,6 @@ ul.fc-slides li {
 	transform: rotateY(-180deg);
 }
 
-.fc-slideshow img {
-	border-radius: 50%;
-}
 
 
 
@@ -245,17 +243,6 @@ ul.fc-slides li {
 	box-shadow: none;
 }
 
-.no-js .fc-slideshow h3 {
-	position: relative;
-	width: auto;
-	height: auto;
-	left: auto;
-	right: auto;
-	top: auto;
-	margin: 5px;
-}
-
-
 
 .fc-left {
 	position: relative;
@@ -270,38 +257,32 @@ ul.fc-slides li {
 
 .fc-slideshow .circle-texto {
 		position: absolute;
-	top: 100px;
+	top: 120px;
 	left: 30px;
 	text-align: center;
-	line-height: 2em;
+	line-height: 2.2em;
 	width: 350px;
 }
 
-.fc-slideshow h3 {
-	position: absolute;
-	color: #595959;
-	top: 50%;
-	margin-top: 30px;
-	line-height: 50px;
-	height: 50px;
-	left: 80px;
-	right: 80px;
-	font-size: 22px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	text-align: center;
-	border-radius: 20% 10% 50% 5% / 25% 10% 30% 75%;
+
+span:hover{
+	color:#F74300;
+	text-decoration: underline;
 }
 
 
-
-h2 {
-	padding-top: 30px;
+span {
+	 font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-family: "Georgia", sans-serif;
+    text-align: center;
 }
 
-#uno:hover, #uno:focus {
-	font-size: 15px;
-	color: red;
+strong {
+	color: #F74300;
 }
 
-
+a:focus {
+	color: #F74300;
+}

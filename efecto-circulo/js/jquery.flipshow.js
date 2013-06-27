@@ -206,17 +206,33 @@
 		_addNav : function() {
 
 			var self = this,
-				$navLeft = $( '<div class="fc-left"><span>uno</span><span>dos</span><span>tres</span><i class="icon-arrow-left"></i></div>' ),
-				$navRight = $( '<div class="fc-right"><span>cuatro</span><span>cinco</span><span>seis</span><i class="icon-arrow-right"></i></div>' );
+				$navLeft = $( '<div class="fc-left"><span id="uno">uno</span><span id="dos">dos</span><span id="tres">tres</span><i class="icon-arrow-left"></i></div>' ),
+				$navRight = $( '<div class="fc-right"><span id="cuatro">cuatro</span><span id="cinco">cinco</span><span id="seis">seis</span><i class="icon-arrow-right"></i></div>' );
 
 			$( '<nav></nav>' ).append( $navLeft, $navRight ).appendTo( this.$el );
 
-			$navLeft.find( 'span' ).on( 'click.flipshow touchstart.flipshow', function() {
-				self._navigate( $( this ), 'left' );
+			$navLeft.find( '#uno' ).on( 'click.flipshow touchstart.flipshow', function() {
+				self._navigate( $( this ), 'left', 0 );
 			} );
 
-			$navRight.find( 'span' ).on( 'click.flipshow touchstart.flipshow', function() {
-				self._navigate( $( this ), 'right' );
+			$navLeft.find( '#dos' ).on( 'click.flipshow touchstart.flipshow', function() {
+				self._navigate( $( this ), 'left', 1 );
+			} );
+
+			$navLeft.find( '#tres' ).on( 'click.flipshow touchstart.flipshow', function() {
+				self._navigate( $( this ), 'left', 2 );
+			} );
+
+			$navRight.find( '#cuatro' ).on( 'click.flipshow touchstart.flipshow', function() {
+				self._navigate( $( this ), 'right', 3 );
+			} );
+
+			$navRight.find( '#cinco' ).on( 'click.flipshow touchstart.flipshow', function() {
+				self._navigate( $( this ), 'right', 4 );
+			} );
+
+			$navRight.find( '#seis' ).on( 'click.flipshow touchstart.flipshow', function() {
+				self._navigate( $( this ), 'right', 5 );
 			} );
 
 		},
@@ -229,7 +245,7 @@
 			this.$flipEl = $( '<div class="fc-flip"></div>' ).append( this.$flipFront, this.$flipBack ).hide().appendTo( this.$el );
 
 		},
-		_navigate : function( $nav, dir ) {
+		_navigate : function( $nav, dir, valor ) {
 
 			if( this.isAnimating && this.support ) {
 				return false;
@@ -239,10 +255,10 @@
 
 			if( dir === 'right' ) {
 				//this.current < this.itemsCount - 1 ? ++this.current : this.current = 0;
-				this.current = 5;
+				this.current = valor;
 			}
 			else if( dir === 'left' ) {
-				this.current = 5;
+				this.current = valor;
 				//this.current > 0 ? --this.current : this.current = this.itemsCount - 1;
 			}
 

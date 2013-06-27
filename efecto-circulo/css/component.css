@@ -28,9 +28,6 @@
 	width: 50%;
 }
 
-/*.fc-slideshow nav .fc-left {
-	left: 0;
-}*/
 
 .fc-slideshow nav .fc-right {
 	right: 0;
@@ -42,6 +39,7 @@
 	position: absolute;
 	left: 0;
 	cursor: pointer;
+	border: 1px solid;
 }
 
 .fc-slideshow nav > div span:first-child {
@@ -225,21 +223,7 @@ ul.fc-slides li {
 	border-radius: 50%;
 }
 
-.fc-slideshow h3 {
-	position: absolute;
-	color: #595959;
-	top: 50%;
-	margin-top: 30px;
-	line-height: 50px;
-	height: 50px;
-	left: 80px;
-	right: 80px;
-	font-size: 22px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	text-align: center;
-	border-radius: 20% 10% 50% 5% / 25% 10% 30% 75%;
-}
+
 
 .fc-overlay-light,
 .fc-overlay-dark {
@@ -274,19 +258,17 @@ ul.fc-slides li {
 
 
 .fc-left {
-	border: 1px solid;
 	position: relative;
 	left: -220px;
 }
 
 
 .fc-right {
-	border: 1px solid;
 		position: relative;
 	left: 420px;
 }
 
-.circle-texto {
+.fc-slideshow .circle-texto {
 		position: absolute;
 	top: 100px;
 	left: 30px;
@@ -295,6 +277,31 @@ ul.fc-slides li {
 	width: 350px;
 }
 
+.fc-slideshow h3 {
+	position: absolute;
+	color: #595959;
+	top: 50%;
+	margin-top: 30px;
+	line-height: 50px;
+	height: 50px;
+	left: 80px;
+	right: 80px;
+	font-size: 22px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	border-radius: 20% 10% 50% 5% / 25% 10% 30% 75%;
+}
+
+
+
 h2 {
 	padding-top: 30px;
 }
+
+#uno:hover, #uno:focus {
+	font-size: 15px;
+	color: red;
+}
+
+

@@ -24,7 +24,7 @@
 .fc-slideshow nav > div {
 	position: absolute;
 	height: 100%;
-	top: 0;
+	top: 25px;
 	width: 50%;
 }
 
@@ -53,7 +53,7 @@
 	top: 66%;
 }
 
-.fc-slideshow nav i,
+
 .no-csstransforms3d .fc-slideshow nav > div span {
 	position: absolute;
 	width: 100%;
@@ -69,6 +69,27 @@
 	backface-visibility: hidden;
 	transition: all 0.2s ease;
 }
+
+.fc-slideshow nav i
+{
+	position: absolute;
+	width: 100%;
+	height: 10px;
+	top: 50%;
+	margin-top: -20px;
+	pointer-events: none;
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: all 0.2s ease;
+	-moz-backface-visibility: hidden;
+	-moz-transition: all 0.2s ease;
+	backface-visibility: hidden;
+	transition: all 0.2s ease;
+
+}
+
+
+
 
 /* Some fallbacks */
 .no-csstransforms3d .fc-slideshow nav > div span {
@@ -86,19 +107,21 @@
 	left: auto;
 }
 
-.no-csstransforms3d .fc-slideshow nav i {
+/*.no-csstransforms3d .fc-slideshow nav i {
 	width: 40px;
 	cursor: pointer;
-}
+}*/
 
 .fc-slideshow nav .fc-left i {
 	-webkit-transform-origin: 100% 50%;
 	-moz-transform-origin: 100% 50%;
 	transform-origin: 100% 50%;
 	text-align: left;
-/*	width: 200px;
-	height: 3px;
-	background-color: #F74300;*/
+/*	mio*/
+	width: 95px;
+	height: 2px;
+	background-color: #F74300;
+
 }
 
 .fc-slideshow nav .fc-right i {
@@ -109,11 +132,14 @@
 }
 
 .fc-slideshow nav i.icon-arrow-left {
-	left: 0;
+	left: 150px;
+	background-color: #F74300;
+	width: 60px;
+
 }
 
 .no-csstransforms3d .fc-slideshow nav i.icon-arrow-left {
-	left: -100px;
+	left: 100px;
 }
 
 .fc-slideshow nav i.icon-arrow-right {
@@ -132,8 +158,8 @@
 	font-size: 1px;
 	background: #F74300;
 	color: #fff;
-	width: 15px;
-	height: 15px;
+	width: 1px;
+	height: 1px;
 	line-height: 22px;
 	text-align: center;
 	display: inline-block;
@@ -142,39 +168,109 @@
 	-webkit-font-smoothing: antialiased;
 }
 
+
+
+
+/*
 .icon-arrow-left:before {
-	content: "<";
+	content: ".";
 }
 
 .icon-arrow-right:before {
-	content: ">";
+	content: ".";
 }
-
+*/
 .csstransforms3d .fc-slideshow nav > div span:hover ~ i,
 .no-csstransforms3d .fc-slideshow nav i,
 .no-csstransforms3d .fc-slideshow nav > div span {
 	opacity: 1;
 }
 
-.csstransforms3d .fc-slideshow nav > div span:nth-child(2):hover ~ i{
+
+
+
+/*Central*/
+
+.csstransforms3d .fc-slideshow nav > .fc-left span:nth-child(2):hover ~ i{
 	-webkit-transform: rotate(0deg);
 	-moz-transform: rotate(0deg);
 	transform: rotate(0deg);
+	left: 150px;
+	top: 175px;
+	width: 65px;
 }
 
-.csstransforms3d .fc-slideshow nav > .fc-left span:first-child:hover ~ i,
+
+.csstransforms3d .fc-slideshow nav > .fc-right span:nth-child(2):hover ~ i{
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	transform: rotate(0deg);
+	width: 65px;
+	background-color: #F74300;
+	left: -5px;
+	top: 175px;
+	width: 60px;
+	height: 2px;
+}
+
+
+/*Diagonal 1*/
+
+.csstransforms3d .fc-slideshow nav > .fc-left span:first-child:hover ~ i
+ {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+	left: 165px;
+	top: 95px;
+	width: 70px;
+	background-color: #F74300;
+
+}
 .csstransforms3d .fc-slideshow nav > .fc-right span:nth-child(3):hover ~ i {
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	transform: rotate(45deg);
+	left: -15px;
+	top: 255px;
+	width: 75px;
+	height: 2px;
+	background-color: #F74300;
+
+}
+/*
+fin diagonal*/
+
+/*
+Diagonal 2*/
+
+.csstransforms3d .fc-slideshow nav > .fc-right span:first-child:hover ~ i
+ {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	left: -50px;
+	top: 50px;
+	width: 60px;
+	height: 2px;
+	background-color: red;
+
+
 }
 
-.csstransforms3d .fc-slideshow nav > .fc-right span:first-child:hover ~ i,
+
 .csstransforms3d .fc-slideshow nav > .fc-left span:nth-child(3):hover ~ i {
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	transform: rotate(-45deg);
+	left: 150px;
+	top: 260px;
+	width: 60px;
+
 }
+
+
+
 
 ul.fc-slides {
 	list-style: none;
@@ -286,3 +382,5 @@ strong {
 a:focus {
 	color: #F74300;
 }
+
+

@@ -16,7 +16,7 @@
 
 </head>
 <body>
-  <section id="uno">
+  <section id="s-uno">
   <div class="row">
     <div class="large-12 columns">
       <div class="title-wrapper">
@@ -47,17 +47,17 @@
                </li>
                <li class="control">
                 <div class="menu-logo">
-                 <a id="enlace-inicio" href="#uno" class="active"><img src="img/logo-m.png" alt="El cesto de los tesoros"></a>
+                 <a id="enlace-inicio" href="#s-uno" class="active"><img src="img/logo-m.png" alt="El cesto de los tesoros"></a>
                 </div>
                </li> 
               </ul>
     <div id="section-nav" class="section-nav" >
             <ul class="nav">
-              <li><a id="enlace-uno" href="#dos" class="active">¿Qué es?</a></li>
-              <li><a id="enlace-cuatro" href="#cuatro" class="">Como utilizarlo</a></li>
-              <li><a id="enlace-cinco" href="#cinco" class="">Beneficios</a></li>
-              <li><a id="enlace-seis" href="#seis" class="">El papel del adulto</a></li>
-              <li><a id="enlace-siete" href="#siete" class="">Descúbrelo</a></li>
+              <li><a id="enlace-uno" href="#s-dos" class="active">¿Qué es?</a></li>
+              <li><a id="enlace-cuatro" href="#s-cuatro" class="">Como utilizarlo</a></li>
+              <li><a id="enlace-cinco" href="#s-cinco" class="">Beneficios</a></li>
+              <li><a id="enlace-seis" href="#s-seis" class="">El papel del adulto</a></li>
+              <li><a id="enlace-siete" href="#s-siete" class="">Descúbrelo</a></li>
             </ul>
          
         </div>
@@ -65,7 +65,7 @@
     </div>
     </div>
   </section>
-  <section id="dos">
+  <section id="s-dos">
     <div class="row">
       <div class="large-12 columns">
         <div class="title-wrapper">
@@ -82,7 +82,7 @@
    </div> 
   </div> 
   </section>
-  <section id="tres">
+  <section id="s-tres">
   <div class="row">
     <div class="large-12 columns">
       <div class="title-wrapper">
@@ -100,7 +100,7 @@
   </div> 
   </section>
 
-  <section id="cuatro">
+  <section id="s-cuatro">
     <div class="row">
       <div class="large-12 columns">
         <div class="title-wrapper">
@@ -152,7 +152,7 @@
 </div>  
 </div>
   </section>
-  <section id="cinco">
+  <section id="s-cinco">
       <div class="row">
       <div class="large-12 columns">
         <div class="title-wrapper">
@@ -161,8 +161,59 @@
       </div>  
     </div>
     </div>
+    <div class="large-12 columns beneficios">
+        <div id="fc-slideshow" class="fc-slideshow">
+          <ul class="fc-slides">
+            <li>
+            
+              <div class="circle-texto"><p>
+                <strong>Favorece</strong> el desarrollo de la motricidad fina en la interacción con cada objeto particular así como la motricidad gruesa en el deseo e intento de alcanzar objetos distantes.
+
+                    </p>
+                </div>
+            </li>
+
+            <li>
+
+                <div class="circle-texto"><p>
+                Al tomar y descartar objetos según su voluntad, el bebé comenzará a tomar sus propias decisiones y experimentará el hecho de elegir. Serán sus primeros pasos en la toma de decisiones
+                    </p>
+                     </div>           
+                </li>
+            <li>
+              
+                <div class="circle-texto"><p>
+                Cuando el bebé toma objetos y se los lleva a la boca, los examina, los chupa, los manipula...  es así como descubre su peso, su tamaño, su forma... las texturas, el sonido, el olor...
+                    </p>
+                 </div>
+            </li>
+            <li>
+              
+                <div class="circle-texto"><p>
+              El Cesto de los Tesoros de <strong>Öbjek</strong> está diseñado para posibilitar, a través del juego, estímulos de calidad que aportarán múltiples experiencias en el desarrollo de la vista, oído, tacto, olfato y gusto.
+                    </p>
+                 </div>
+            </li>
+            <li>
+              
+                <div class="circle-texto"><p>
+                El Cesto de los Tesoros se convierte en una actividad absorbente para el bebé. Pasará largos ratos examinando y manipulando objetos y lo cual revierte directamente en el desarrollo de su capacidad de concentración. 
+                    </p>
+                 </div>
+            </li>
+            <li>
+      
+                <div class="circle-texto"><p>
+              Con el Cesto de los Tesoros el bebé aprende por sí mismo; el juego respeta su ritmo y sus necesidades porque no depende del adulto. El bebé es protagonista de su actividad y su mundo favoreciendo así su propia autonomía.
+                    </p>
+                 </div>
+            </li>
+          
+          </ul>
+        </div>
+    </div>  
   </section>
-  <section id="seis">
+  <section id="s-seis">
     <div class="row">
       <div class="large-12 columns">
         <div class="title-wrapper">
@@ -178,7 +229,7 @@
       </div> 
     </div>    
   </section>
-  <section id="siete">
+  <section id="s-siete">
     <div class="row">
       <div class="large-12 columns">
         <div class="title-wrapper">
@@ -228,16 +279,24 @@
   ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
   '.js><\/script>')
   </script>
-  
   <script src="js/vendor/jquery.js"></script>
   <script src="js/vendor/jquery.cycle.all.js"></script>
   <script src="js/vendor/jquery.easing.js"></script>
+  <script src="js/jquery.flipshow.js"></script>
   <script src="js/vendor/foundation.min.js"></script>
   <script src="js/app.js"></script>
-  
+
   <script>
     $(document).foundation();
   </script>
   <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+    <script>
+      $( function() {
+        
+        $('#fc-slideshow').flipshow();
+
+      } );
+    </script>
 </body>
 </html>

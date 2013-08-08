@@ -458,6 +458,9 @@ Efecto*/
     cursor: pointer;
 }
 
+
+/*Posiciones span*/
+
 .fc-slideshow nav > div span:first-child {
     top: 0;
 }
@@ -469,24 +472,6 @@ Efecto*/
 .fc-slideshow nav > div span:nth-child(3) {
     top: 66%;
 }
-
-
-.no-csstransforms3d .fc-slideshow nav > div span {
-    position: absolute;
-    width: 100%;
-    height: 10px;
-    top: 50%;
-    margin-top: -20px;
-    pointer-events: none;
-    opacity: 0;
-    -webkit-backface-visibility: hidden;
-    -webkit-transition: all 0.2s ease;
-    -moz-backface-visibility: hidden;
-    -moz-transition: all 0.2s ease;
-    backface-visibility: hidden;
-    transition: all 0.2s ease;
-}
-
 
 .fc-slideshow nav i
 {
@@ -506,33 +491,11 @@ Efecto*/
 
 }
 
-
-
-
-/* Some fallbacks */
-.no-csstransforms3d .fc-slideshow nav > div span {
-    z-index: 1000;
-    width: 40px;
-    background: rgba(0,0,0,0);
-
-}
-
-.no-csstransforms3d .fc-slideshow nav .fc-left span {
-    left: -80px;
-}
-
-.no-csstransforms3d .fc-slideshow nav .fc-right span {
-    right: -80px;
-    left: auto;
-}
-
-
 .fc-slideshow nav .fc-left i {
     -webkit-transform-origin: 100% 50%;
     -moz-transform-origin: 100% 50%;
     transform-origin: 100% 50%;
     text-align: left;
-/*  mio*/
     width: 95px;
     height: 2px;
     background-color: #F74300;
@@ -540,11 +503,21 @@ Efecto*/
 }
 
 .fc-slideshow nav .fc-right i {
+    -webkit-transform-origin: 0% 0%;
+    -moz-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+    text-align: left;
+      width: 35px;
+    height: 2px;
+
+}
+
+/*.fc-slideshow nav .fc-right i {
     -webkit-transform-origin: 0% 50%;
     -moz-transform-origin: 0% 50%;
     transform-origin: 0% 50%;
     text-align: right;
-}
+}*/
 
 .fc-slideshow nav i.icon-arrow-left {
     left: 150px;
@@ -553,44 +526,12 @@ Efecto*/
 
 }
 
-.no-csstransforms3d .fc-slideshow nav i.icon-arrow-left {
-    left: 100px;
-}
-
-.fc-slideshow nav i.icon-arrow-right {
-    right: 0;
-}
-
-.no-csstransforms3d .fc-slideshow nav i.icon-arrow-right {
-    right: -60px;
-}
-
-.icon-arrow-left:before, 
-.icon-arrow-right:before {
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1px;
-    background: #F74300;
-    color: #fff;
-    width: 1px;
-    height: 1px;
-    line-height: 22px;
-    text-align: center;
-    display: inline-block;
-    margin: 0 20px;
-    border-radius: 50% 50%;
-    -webkit-font-smoothing: antialiased;
-}
-
 
 .csstransforms3d .fc-slideshow nav > div span:hover ~ i,
 .no-csstransforms3d .fc-slideshow nav i,
 .no-csstransforms3d .fc-slideshow nav > div span {
     opacity: 1;
 }
-
-
 
 
 /*Central*/
@@ -611,9 +552,9 @@ Efecto*/
     transform: rotate(0deg);
     width: 65px;
     background-color: #F74300;
-    left: -5px;
+    left: -13px;
     top: 175px;
-    width: 60px;
+    width: 30px;
     height: 2px;
 }
 
@@ -625,8 +566,8 @@ Efecto*/
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     transform: rotate(45deg);
-    left: 165px;
-    top: 95px;
+    left: 175px;
+    top: 93px;
     width: 70px;
     background-color: #F74300;
 
@@ -635,7 +576,7 @@ Efecto*/
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     transform: rotate(45deg);
-    left: -15px;
+    left: -19px;
     top: 255px;
     width: 75px;
     height: 2px;
@@ -653,12 +594,11 @@ Diagonal 2*/
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    left: -50px;
-    top: 50px;
-    width: 60px;
+    left: -36px;
+    top: 106px;
+    width: 90px;
     height: 2px;
-    background-color: red;
-
+    background-color: #F74300;
 
 }
 
@@ -765,9 +705,10 @@ ul.fc-slides li {
 }
 
 
-span:hover{
+#s-cinco span:hover{
     color:#F74300;
     text-decoration: underline;
+
 }
 
 

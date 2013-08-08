@@ -443,7 +443,7 @@ Efecto*/
     height: 100%;
     top: 25px;
     width: 50%;
-    color: purple;
+    color: ##595959;
 }
 
 
@@ -712,7 +712,6 @@ ul.fc-slides li {
 
 }
 
-
 span {
     font-size: 1.5em;
     font-weight: bold;
@@ -721,7 +720,56 @@ span {
     text-align: center;
 }
 
+.favorece {
+    padding-top: 20px;
+}
+.decisiones {
+    padding: 10px;
+}
+.descubrir {
+padding-top: 25px;
+}
+.sentidos {
+    padding-top: 20px;
+
+}
+
+.concentracion {
+    padding-top: 15px;
+}
+
+.autonomia {
+      padding-top: 15px;  
+}
+/*
+span#cinco {
+    padding-left: 30px;
+}
+
+span#dos {
+   left: -73px;
+    position: absolute;
+    width: 145%;
+}
+
+span#tres {
+position: absolute;
+left: 38px;
+}
+
+span#cuatro {
+position: absolute;
+left: -30px;
+}
+
+span#cinco {
+position: absolute;
+}
+
+span#seis {
+  position: absolute;
+  left: -30px;  
+}
 
 
-
-
+*/

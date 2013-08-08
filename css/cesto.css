@@ -443,6 +443,7 @@ Efecto*/
     height: 100%;
     top: 25px;
     width: 50%;
+    color: purple;
 }
 
 
@@ -577,8 +578,8 @@ Efecto*/
     -moz-transform: rotate(45deg);
     transform: rotate(45deg);
     left: -19px;
-    top: 255px;
-    width: 75px;
+    top: 253px;
+    width: 77px;
     height: 2px;
     background-color: #F74300;
 
@@ -607,9 +608,9 @@ Diagonal 2*/
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    left: 150px;
-    top: 260px;
-    width: 60px;
+    left: 130px;
+    top: 244px;
+    width: 90px;
 
 }
 

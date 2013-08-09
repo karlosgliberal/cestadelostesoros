@@ -57,8 +57,10 @@ background-image: url("../img/bg-dos.jpg");
 }
 
 #s-tres {
-background-color: #DBDCD5;
+
 min-height: 1000px;
+background-size: cover;
+background-image: url("../img/video.jpg");
 }
 
 #s-cuatro {
@@ -422,7 +424,7 @@ Efecto*/
     position: relative;
     width: 350px;
     height: 350px;
-    box-shadow: inset 0 0 3px rgba(0,0,0,0.4), 0 0 0 8px #BC1727;
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.4), 0 0 0 8px #F74300;
     border-radius: 50%;
     margin: 0 auto;
     -webkit-perspective: 1200px;
@@ -709,8 +711,8 @@ ul.fc-slides li {
 
 
 #s-cinco span:hover{
-   /* color:#F74300;*/
-   color: #BC1727;
+    color:#F74300;
+
 
 }
 
@@ -769,38 +771,22 @@ span#cinco {
     left: 20px;
 }
 
-/*span#uno {
-    padding-left: 30px;
+/*Fin efecto*/
+
+.video-frame {
+/*background-color: #000;
+opacity: 0.9;*/
+
 }
 
-
-span#cinco {
-    padding-left: 30px;
+.video-container {
+border: 1px solid #fff;
+min-height: 400px;
 }
 
-span#dos {
-   left: -73px;
-    position: absolute;
-    width: 145%;
+.favorece-container {
+background-color: #DBDCD5;
+opacity: 0.8;
 }
 
-span#tres {
-position: absolute;
-left: 38px;
-}
-
-span#cuatro {
-position: absolute;
-left: -30px;
-}
-
-span#cinco {
-position: absolute;
-}
-
-span#seis {
-  position: absolute;
-  left: -30px;  
-}
-*/
 

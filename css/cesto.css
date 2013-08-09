@@ -63,8 +63,9 @@ background-image: url("../img/bg-dos.jpg");
 }
 
 #s-tres {
-background: black;
-min-height: 1000px;
+height: 1068px;
+background-size: cover;
+background-image: url("../img/video.jpg");
 }
 
 #s-cuatro {
@@ -776,8 +777,10 @@ span#cinco {
 /*Fin efecto*/
 
 .video-frame {
-/*background-color: #000;
-opacity: 0.9;*/
+    border: 2px solid red;
+    left: 0;
+    position: relative;
+    top: -1000px;
 
 }
 
@@ -802,3 +805,20 @@ opacity: 0.8;
 .fc-slideshow {
 background: url("../img/fieltro3.png") repeat;
 }
+
+.video-bg {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 1000px;
+    border: 2px solid blue;
+    width: 100%;
+}
+
+#s-tres {
+   position: relative;
+   top: 0;
+   left: 0;
+    
+}
+

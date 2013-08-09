@@ -21,6 +21,11 @@ $(document).ready(function(){
    	 $('#slideshow').cycle(2); 
      return false; 
    });
-
+   $('#video_boton').click(function(event){
+        console.log('hola');
+    $('.video-img').fadeOut('slow');
+    $('.video-player').fadeIn('slow');
+    return false;
+   })
 });
 

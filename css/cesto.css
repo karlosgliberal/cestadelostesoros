@@ -687,30 +687,30 @@ ul.fc-slides li {
 
 .fc-left {
     position: relative;
-    left: -220px;
-    background-color: #ccc;
+    left: -242px;
+/*    background-color: #ccc;*/
 }
 
 
 .fc-right {
         position: relative;
     left: 420px;
-    background-color: #dadada;
+/*    background-color: #dadada;*/
 }
 
 .fc-slideshow .circle-texto {
-        position: absolute;
-    top: 120px;
-    left: 30px;
-    text-align: center;
+   left: 25px;
     line-height: 2.2em;
-    width: 350px;
+    position: absolute;
+    text-align: center;
+    top: 91px;
+    width: 300px;
 }
 
 
 #s-cinco span:hover{
     color:#F74300;
-    text-decoration: underline;
+
 
 }
 
@@ -762,8 +762,12 @@ padding-top: 25px;
 
 span#dos {
    width: 128%;
+    left: -66px;
 }
 
+span#cinco {
+    left: 20px;
+}
 
 /*span#uno {
     padding-left: 30px;

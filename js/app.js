@@ -24,7 +24,7 @@ $(document).ready(function(){
    $('#video_boton').click(function(event){
     $('.video-img').fadeTo(500, 0).hide();
     $('.video-player').fadeTo(900, 1);
-    $('#imagen-video').stop().animate({"opacity": "0.2"}, "slow")
+    $('#s-tres').stop().animate({"opacity": "0.2"}, "slow")
     return false;
    });
 

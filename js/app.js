@@ -24,11 +24,7 @@ $(document).ready(function(){
    $('#video_boton').click(function(event){
     $('.video-img').fadeTo(500, 0).hide();
     $('.video-player').fadeTo(900, 1);
-<<<<<<< HEAD
-    $('#s-tres').stop().animate({"opacity": "0.2"}, "slow")
-=======
     $('.video-frame').stop().animate({"opacity": "0.4"}, "slow")
->>>>>>> 5fe92dd4f4dac5718e5eb266e7fc48da672adeb9
     return false;
    });
 

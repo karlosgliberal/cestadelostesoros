@@ -65,8 +65,7 @@ background-image: url("../img/bg-dos.jpg");
 #s-tres {
 
 height: 1068px;
-background-size: cover;
-background-image: url("../img/video.jpg");
+background-color: #000;
 }
 
 #s-cuatro {
@@ -778,10 +777,11 @@ span#cinco {
 /*Fin efecto*/
 
 .video-frame {
-    border: 2px solid red;
+    border: 5px solid #fff;
     left: 0;
     position: relative;
     top: -1000px;
+ 
 
 }
 
@@ -790,8 +790,8 @@ min-height: 400px;
 }
 
 .favorece-container {
-background-color: #DBDCD5;
-opacity: 0.8;
+
+
 }
 
 .video-img  {
@@ -812,8 +812,10 @@ background: url("../img/fieltro3.png") repeat;
     top: 0;
     left: 0;
     height: 1000px;
-    border: 2px solid blue;
     width: 100%;
+    background-size: cover;
+    background-image: url("../img/video.jpg");
+
 }
 
 #s-tres {
@@ -821,5 +823,9 @@ background: url("../img/fieltro3.png") repeat;
    top: 0;
    left: 0;
     
+}
+
+.video-player{
+ display: none;
 }
 

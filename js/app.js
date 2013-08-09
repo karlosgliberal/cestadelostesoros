@@ -22,10 +22,11 @@ $(document).ready(function(){
      return false; 
    });
    $('#video_boton').click(function(event){
-        console.log('hola');
-    $('.video-img').fadeOut('slow');
-    $('.video-player').fadeIn('slow');
+    $('.video-img').fadeTo(500, 0).hide();
+    $('.video-player').fadeTo(900, 1);
+    $('#imagen-video').stop().animate({"opacity": "0.2"}, "slow")
     return false;
-   })
+   });
+
 });
 

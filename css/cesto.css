@@ -63,10 +63,8 @@ background-image: url("../img/bg-dos.jpg");
 }
 
 #s-tres {
-
+background: black;
 min-height: 1000px;
-background-size: cover;
-background-image: url("../img/video.jpg");
 }
 
 #s-cuatro {

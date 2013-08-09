@@ -1,3 +1,11 @@
 .video-player{
 	display: none;
 }
+
+#imagen-video {
+	background-size: cover;
+	background-image: url("../img/video.jpg");
+	display: block;
+	z-index: -1;
+}
+

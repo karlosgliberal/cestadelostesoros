@@ -773,58 +773,49 @@ span#cinco {
     left: 20px;
 }
 
+.fc-slideshow {
+background: url("../img/fieltro3.png") repeat;
+}
+
 /*Fin efecto*/
 
-.video-frame {
-    border: 5px solid #fff;
-    left: 0;
-    position: relative;
-    top: -1000px;
- 
-
+.favorece-container {
+    background-color: #E1E2DC;
+    opacity: 0.9;
 }
 
 .video-container {
 min-height: 400px;
 }
 
-.favorece-container {
-
-
-}
 
 .video-img  {
    text-align: center;
-   padding-top: 200px;
+   padding-top: 250px;
 }
 
 .video-img a:hover {
     opacity: 0.9;
 }
 
-.fc-slideshow {
-background: url("../img/fieltro3.png") repeat;
-}
 
-.video-bg {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 1000px;
-    width: 100%;
-    background-size: cover;
-    background-image: url("../img/video.jpg");
 
-}
-
-#s-tres {
-   position: relative;
-   top: 0;
-   left: 0;
-    
-}
-
-.video-player{
+.video-player {
  display: none;
 }
+
+.video-frame {
+    background-image: url("../img/video.jpg");
+    background-size: cover;
+    background-color: #000;
+      height: 1004px;
+}
+
+.video-player {
+    position: relative;
+    top: -489px;
+    height: 0;
+}
+
+
 

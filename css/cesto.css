@@ -422,7 +422,7 @@ Efecto*/
     position: relative;
     width: 350px;
     height: 350px;
-    box-shadow: inset 0 0 3px rgba(0,0,0,0.4), 0 0 0 8px #F74300;
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.4), 0 0 0 8px #BC1727;
     border-radius: 50%;
     margin: 0 auto;
     -webkit-perspective: 1200px;
@@ -709,8 +709,8 @@ ul.fc-slides li {
 
 
 #s-cinco span:hover{
-    color:#F74300;
-
+   /* color:#F74300;*/
+   color: #BC1727;
 
 }
 

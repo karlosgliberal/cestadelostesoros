@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <html lang="en" class="no-js">
@@ -114,8 +113,11 @@
     </section>
 <div class="row">
         <div class="small-11 small-centered columns">
+          <div class="form-close">
+            <a class="x">×</a>
+          </div>
         <div class="video-player">
-            <iframe src="http://player.vimeo.com/video/71340975" width="800" height="400" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            <iframe id="player" src="http://player.vimeo.com/video/71340975?api=1&amp;player_id=player" width="800" height="400" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
  
         </div>
       </div>
@@ -303,6 +305,7 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/jquery.cycle.all.js"></script>
     <script src="js/vendor/jquery.easing.js"></script>
+    <script type="text/javascript" src="js/froogaloop.js"></script>
     <script src="js/jquery.flipshow.js"></script>
     <script src="js/vendor/foundation.min.js"></script>
     <script src="js/app.js"></script>
@@ -310,7 +313,7 @@
     <script>
       $(document).foundation();
     </script>
-    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+ 
 
       <script>
         $( function() {

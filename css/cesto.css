@@ -1,12 +1,4 @@
 
-/*h2 {
-    font-family: "Georgia", serif;
-    font-size: 24px;
-    letter-spacing: 0.6px;
-    font-weight: bold;
-    color: #595959;
-}*/
-
 @font-face {
 	font-family: 'Tesoro';
 	src: url('../fonts/FairpNarBooIta.eot');
@@ -44,27 +36,30 @@ h1, h2, h3, h4 {
 
 /*Sections*/
 
-section {
-padding-top: 70px;
-}
+
 
 #s-uno {
 background-color: #fff;
 min-height: 900px;
 background-size: cover;
-background-image: url("../img/bg-uno.jpg");
+/*background-image: url("../img/bg-uno.jpg");*/
+background-image: url("../img/bg1.jpg");
+
 }
 
 #s-dos {
 background-color: #FBE9D3;
 min-height: 1000px;
 background-size: cover;
-background-image: url("../img/bg-dos.jpg");
+/*background-image: url("../img/bg-dos.jpg");*/
+background-image: url("../img/bg2.jpg");
+background-position: bottom;
 }
 
 #s-tres {
-height: 1068px;
+height: 1004px;
 background-color: #000;
+
 }
 
 #s-cuatro {
@@ -92,7 +87,7 @@ background: url("../img/fieltro1.png") repeat;
 background-color: #D3D8DB;
 min-height: 800px;
 background-size: cover;
-background-image: url("../img/bg-observa.jpg");
+background-image: url("../img/bg4.jpg");
 }
 
 
@@ -192,10 +187,6 @@ width: 35%;
 	display: inline;
 }
 
-.menu-objek {
-
-}
-
 
 /*H1 H2 */
 
@@ -229,17 +220,17 @@ text-align: right;
 margin: 0;
 }
 
-section#s-dos .title-wrapper {
+/*section#s-dos .title-wrapper {
 padding-top: 50px;
-}
-
+}*/
+section#s-dos .title-wrapper,
 section#s-tres .title-wrapper,
 section#s-cuatro .title-wrapper,
 section#s-cinco .title-wrapper,
 section#s-seis .title-wrapper,
 section#s-siete .title-wrapper
  {
-    padding-top: 100px;
+    padding-top: 170px;
 }
 
 .uno {
@@ -805,7 +796,8 @@ min-height: 400px;
 }
 
 .video-frame {
-    background-image: url("../img/video.jpg");
+ /*   background-image: url("../img/video.jpg");*/
+     background-image: url("../img/bg3.jpg");
     background-size: cover;
     background-color: #000;
       height: 1004px;
@@ -818,4 +810,8 @@ min-height: 400px;
 }
 
 
-
+/*.row {
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+*/

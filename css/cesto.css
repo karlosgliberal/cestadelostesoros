@@ -872,3 +872,22 @@ text-decoration: underline;
 #s-dos .title-wrapper {
     padding-top: 100px;
 }
+
+
+
+
+div.floating-menu {
+    position:fixed;
+    width:150px;
+    z-index:100;
+    right: 15px;
+
+}
+div.floating-menu a, 
+div.floating-menu h3 {
+    display:block;margin:0 0.5em;
+    color: purple;
+}
+
+
+

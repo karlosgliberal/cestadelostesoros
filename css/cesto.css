@@ -39,7 +39,7 @@ h1, h2, h3, h4 {
 
 
 #s-uno {
-background-color: #fff;
+background-color: #F3E6DD;
 background-image: url("../img/bg1.jpg");
 background-repeat: no-repeat;
 /*background-size: cover;*/
@@ -164,19 +164,18 @@ width: 35%;
 
 }
 
-.l-objek {
-
-}
 
 .logo-w {
 	float: left;
 }
+
 
 .menu-logo {
 	float: right;
 	height: 41px;
 	background-color: #000;
 }
+
 .img-menu li {
 	display: inline;
 }
@@ -250,7 +249,7 @@ letter-spacing: -2px;*/
 }*/
 
 
-section#s-dos .title-wrapper,
+
 section#s-tres .title-wrapper,
 section#s-cuatro .title-wrapper,
 section#s-cinco .title-wrapper,
@@ -259,7 +258,6 @@ section#s-siete .title-wrapper
  {
     padding-top: 170px;
 }
-
 
 
 
@@ -859,9 +857,18 @@ text-decoration: underline;
 
 .cesto-img {
     padding-top: 100px;
+    z-index: 1000;
 }
 
 
 .title-wrapper-cesto {
     padding-top: 30px;
+}
+
+.texto-descubre p {
+    text-align: center;
+}
+
+#s-dos .title-wrapper {
+    padding-top: 100px;
 }

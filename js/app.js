@@ -1,7 +1,7 @@
 $(document).ready(function(){
   var iframe = $('#player')[0];
   var player = $f(iframe);
-  player.addEvent('ready', function() {
+  player.addevent('ready', function() {
   });
 
    $('#slideshow').cycle({

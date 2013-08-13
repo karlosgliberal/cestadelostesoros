@@ -1,4 +1,4 @@
-var iframe = $('#player1')[0];
+var iframe = $('.video-player>iframe')[0];
 var player = $f(iframe);
 
 

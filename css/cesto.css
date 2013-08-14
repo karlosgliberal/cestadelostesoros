@@ -432,6 +432,7 @@ text-align: center;
 
 
 a.evento .c-enlace1
+
 {
     color: #595959;
     text-align: center;
@@ -443,8 +444,6 @@ a.evento .c-enlace1
 
 /*
 Efecto*/
-
-
 
 .fc-slideshow {
     position: relative;
@@ -742,10 +741,11 @@ ul.fc-slides li {
 }
 
 
-#s-cinco span:hover{
-    color: #BC1727;
-
+#s-cinco span:hover,
+#fc-slideshow span.evento-beneficios {
+  color: #BC1727;
 }
+
 
 #fc-slideshow span {
     font-size: 1.5em;
@@ -1025,5 +1025,6 @@ Efecto circulo*/
     display: inline-block;
     margin: 40px;
 }
+
 
 

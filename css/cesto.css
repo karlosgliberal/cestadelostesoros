@@ -367,6 +367,7 @@ a#mueve
 font-size: 1.5em;
 font-weight: bold;
 letter-spacing: -1px;
+text-align: center;
 }
 
 
@@ -414,7 +415,7 @@ text-align: center;
 }
 
 
-#s-cuatro li.exp a:focus .como1 {
+#s-cuatro li.exp a:evento .como1 {
     background: url("../img/como1.png") no-repeat center;
      color: #595959;
 }
@@ -424,18 +425,22 @@ text-align: center;
      color: #595959;
 }
 
-#s-cuatro li.exp a:focus .como3 {
+#s-cuatro li.exp a:evento .como3 {
     background: url("../img/como3.png") no-repeat center;
      color: #595959;
 }
 
 
-a.evento .c-enlace2
-
- {
+a.evento .c-enlace1,
+a.evento .c-enlace2,
+a.evento .c-enlace3
+{
     color: red;
     text-align: center;
 }
+
+
+
 
 
 
@@ -614,6 +619,7 @@ Efecto*/
      width: 70px;
 
 }
+
 .csstransforms3d .fc-slideshow nav > .fc-right span:nth-child(3):hover ~ i {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);

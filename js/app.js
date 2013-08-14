@@ -1,4 +1,38 @@
 $(document).ready(function(){
+  $.fn.copyCSS = function(source){
+    var dom = $(source).get(0);
+    var style;
+    var dest = {};
+    if(window.getComputedStyle){
+        var camelize = function(a,b){
+            return b.toUpperCase();
+        };
+        style = window.getComputedStyle(dom, null);
+        for(var i = 0, l = style.length; i < l; i++){
+            var prop = style[i];
+            var camel = prop.replace(/\-([a-z])/g, camelize);
+            var val = style.getPropertyValue(prop);
+            dest[camel] = val;
+        };
+        return this.css(dest);
+    };
+    if(style = dom.currentStyle){
+        for(var prop in style){
+            dest[prop] = style[prop];
+        };
+        return this.css(dest);
+   };
+   if(style = dom.style){
+      for(var prop in style){
+        if(typeof style[prop] != 'function'){
+          dest[prop] = style[prop];
+        };
+      };
+    };
+    return this.css(dest);
+  };
+
+
    $('#slideshow').cycle({
    	  timeout: 0,
    	  fx:      'scrollRight',
@@ -7,9 +41,6 @@ $(document).ready(function(){
     	startingSlide: 0 
    });
 
-    $("#s-uno").mouseenter(function(){
-          console.log('name');
-    }); 
 
    var quitarClase = function(){
       $('.evento').each(function(e){
@@ -24,7 +55,6 @@ $(document).ready(function(){
      $(this).addClass('evento');
      return false; 
    });
-
    $('a#sentado').click(function(event) { 
    	 event.preventDefault();
      quitarClase();
@@ -53,5 +83,10 @@ $(document).ready(function(){
     $('.video-frame').stop().animate({"opacity": "0"}, "slow");
     $('.video-player').fadeTo(900, 0);
     $('.video-img').fadeTo(500, 1).show();
+   });
+   $('.fc-slideshow').mouseenter(function(){
+        console.log('mouse:$window');
+      $('#uno').removeClass('evento-beneficios');
+      $('.icon-arrow-left').removeClass('primerhover');
    });
 });

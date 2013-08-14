@@ -207,6 +207,7 @@
 
 			var self = this,
 				$navLeft = $( '<div class="fc-left"><span id="uno" class="evento-beneficios">Psicomotrocidad</span><span id="dos">Toma de decisiones</span><span id="tres">Descubrir</span><i class="icon-arrow-left primerhover"></i></div>' ),
+
 				$navRight = $( '<div class="fc-right"><span id="cuatro">Los sentidos</span><span id="cinco">Concentración</span><span id="seis">Autonomía</span><i class="icon-arrow-right"></i></div>' );
 
 			$( '<nav></nav>' ).append( $navLeft, $navRight ).appendTo( this.$el );

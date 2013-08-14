@@ -415,7 +415,7 @@ text-align: center;
 }
 
 
-#s-cuatro li.exp a:evento .como1 {
+#s-cuatro li.exp a.evento .como1 {
     background: url("../img/como1.png") no-repeat center;
      color: #595959;
 }
@@ -425,7 +425,7 @@ text-align: center;
      color: #595959;
 }
 
-#s-cuatro li.exp a:evento .como3 {
+#s-cuatro li.exp a.evento .como3 {
     background: url("../img/como3.png") no-repeat center;
      color: #595959;
 }

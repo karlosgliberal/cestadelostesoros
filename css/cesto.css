@@ -661,8 +661,8 @@ Diagonal 2*/
 }
 
 /*Active*/
-span.evento-beneficios:first-child  i 
- {
+.fc-slideshow nav i#primerhover {
+    opacity: 1;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -670,8 +670,6 @@ span.evento-beneficios:first-child  i
      left: 180px;
      top: 95px;
      width: 70px;
-     height: 100px
-
 }
 
 

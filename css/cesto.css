@@ -439,8 +439,6 @@ a.evento .c-enlace
     text-align: center;
 }
 
-
-
 .beneficios {
     margin-top: 80px;
 }
@@ -556,7 +554,6 @@ Efecto*/
     left: 150px;
     background-color: #BC1727;
     width: 60px;
-
 }
 
 .csstransforms3d .fc-slideshow nav > div span:hover ~ i,
@@ -602,7 +599,6 @@ Efecto*/
      left: 180px;
      top: 95px;
      width: 70px;
-
 }
 
 .csstransforms3d .fc-slideshow nav > .fc-right span:nth-child(3):hover ~ i {
@@ -657,7 +653,6 @@ span.evento-beneficios:first-child  i
      top: 95px;
      width: 70px;
      height: 100px
-
 }
 
 
@@ -705,9 +700,6 @@ ul.fc-slides li {
     -moz-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
 }
-
-
-
 
 .fc-overlay-light,
 .fc-overlay-dark {
@@ -1013,7 +1005,6 @@ Efecto circulo*/
 }
 
 .ch-grid {
-    margin: 20px 0 0 0;
     padding: 0;
     list-style: none;
     display: block;

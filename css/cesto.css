@@ -429,6 +429,17 @@ text-align: center;
      color: #595959;
 }
 
+
+a.evento .c-enlace2
+
+ {
+    color: red;
+    text-align: center;
+}
+
+
+
+
 #s-cuatro a:focus {
     color: #595959;
 }

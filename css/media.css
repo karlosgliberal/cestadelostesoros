@@ -3,7 +3,43 @@
 
 @media only screen and (max-width: 320px) {
   /* Small screen, non-retina */
-  #s-uno{ background-image: url("../img/media/uno290.jpg"); }
+  #s-uno{ background-image: url("../img/media/uno290.jpg"); 
+
+}
+
+h2.tesoro { 
+      text-align: center;
+      font-size: 2em;
+
+    }
+    h2.tit { 
+      font-size: 1.6em;
+      margin: 0 0 26px;
+       text-align: center;
+   }
+    #s-uno {
+      padding-bottom: 50px;
+    }
+
+    .img-principal {
+    left: 0px;
+}
+
+.img-menu{
+  display: none;
+}
+
+.section-nav li {
+  
+    display: block;
+}
+
+#section-nav {
+    float: none;
+    width: 100%;
+}
+
+
 }
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (max-width: 320px),
@@ -16,10 +52,31 @@ only screen and (                min-resolution: 2dppx)  and (max-width: 320px) 
   /* Small screen, retina */
   #s-uno{ background-image: url("../img/media/uno290@2.jpg"); }
 }
+
+
+
 @media only screen and (min-width: 321px) and (max-width: 538px) {
   /* Medium screen, non-retina */
-    #s-uno{ background-image: none; }
-    h2.tesoro { text-align: left;}
+    
+    h2.tesoro { 
+      text-align: center;
+      font-size: 2em;
+
+    }
+    h2.tit { 
+      font-size: 1.6em;
+      margin: 0 0 26px;
+      text-align: center
+   }
+    #s-uno {
+      padding-bottom: 50px;
+    }
+
+    .img-principal {
+    left: 0px;
+}
+     
+    }
 }
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 321px) and (max-width: 538px),

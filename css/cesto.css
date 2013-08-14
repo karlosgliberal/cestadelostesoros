@@ -99,7 +99,6 @@ padding-bottom: 100px;
 /*Menu*/
 
 #menu{
-    width: 100%;
     background-color: #000;
     font-family: "Georgia", serif;
     font-size: 14px;
@@ -1026,5 +1025,37 @@ Efecto circulo*/
     margin: 40px;
 }
 
+.top-bar-section li {
+padding: 0px;
+}
 
+.top-bar-section ul {
+    font-size: 14px;
+}
 
+.top-bar-section ul li > a {
+    background: none repeat scroll 0 0 #222222;
+    color: white;
+    display: block;
+    font-size: 1em;
+    font-weight: normal;
+    padding: 12px 0 12px 15px;
+    width: 100%;
+}
+
+.top-bar-section .active {
+    color: #F71D31;
+}
+
+.top-bar-section a:hover {
+    color: #F71D31;
+    transition: all 400ms ease 0s;
+}
+.objek-logo {
+   position: relative;
+    top: -46px;
+}
+
+.cesto-logo {
+    padding-left: 8px;
+}

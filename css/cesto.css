@@ -431,29 +431,15 @@ text-align: center;
 }
 
 
-a.evento .c-enlace1,
-a.evento .c-enlace2,
-a.evento .c-enlace3
+a.evento .c-enlace,
+a.evento .c-enlace,
+a.evento .c-enlace
 {
-    color: red;
+    color: #595959;
     text-align: center;
 }
 
 
-
-
-
-
-
-#s-cuatro a:focus {
-    color: #595959;
-}
-
-
-
-#s-cuatro a:focus {
-    color: #595959;
-}
 
 .beneficios {
     margin-top: 80px;

@@ -385,10 +385,10 @@ letter-spacing: -1px;
 }
 
 .como3 {
-      background: url("../img/como3.png") no-repeat center;
+      background: url("../img/como3-off.png") no-repeat center;
     height: 200px;
    margin: 0 auto;  
-     text-align: center;
+    text-align: center;
 }
 
 

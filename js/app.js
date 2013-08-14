@@ -6,13 +6,16 @@ $(document).ready(function(){
     	speed:   300, 
     	startingSlide: 0 
    });
-   
+
+    $("#s-uno").mouseenter(function(){
+          console.log('name');
+    }); 
+
    var quitarClase = function(){
       $('.evento').each(function(e){
-            console.log(this);
         $(this).removeClass('evento');
       })
-   }
+   };
 
    $('a#tumbado').click(function(event) { 
    	 event.preventDefault();

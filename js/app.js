@@ -6,18 +6,29 @@ $(document).ready(function(){
     	speed:   300, 
     	startingSlide: 0 
    });
+
+   $('.como1').addClass('active-como-1'); 
    $('a#tumbado').click(function(event) { 
    	 event.preventDefault();
-   	 $('#slideshow').cycle(0); 
+   	 $('#slideshow').cycle(0);
+     $('.como2').removeClass('active-como-2');
+     $('.como3').removeClass('active-como-3');
+     $('.como1').addClass('active-como-1'); 
      return false; 
    });
    $('a#sentado').click(function(event) { 
    	 event.preventDefault();
+     $('.como1').removeClass('active-como-1');
+     $('.como3').removeClass('active-como-3');
+     $('.como2').addClass('active-como-2'); 
    	 $('#slideshow').cycle(1); 
      return false; 
    });
    $('a#mueve').click(function(event) { 
    	 event.preventDefault();
+     $('.como1').removeClass('active-como-1');
+     $('.como2').removeClass('active-como-2');
+     $('.como3').addClass('active-como-3'); 
    	 $('#slideshow').cycle(2); 
      return false; 
    });

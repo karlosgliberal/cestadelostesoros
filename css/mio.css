@@ -1,11 +1,25 @@
-.video-player{
-	display: none;
+
+.active-como-1{
+    background: url("../img/como1.png") no-repeat center;
+    color: #595959;
 }
 
-#imagen-video {
-	background-size: cover;
-	background-image: url("../img/video.jpg");
-	display: block;
-	z-index: -1;
+.active-como-2{
+    background: url("../img/como2.png") no-repeat center;
+    color: #595959;
 }
 
+.active-como-3{
+    background: url("../img/como3.png") no-repeat center;
+    color: #595959;
+}
+
+.active-text-1{
+	color: #595959;
+}
+.active-text-2{
+	color: #595959;
+}
+.active-text-3{
+	color: #595959;
+}

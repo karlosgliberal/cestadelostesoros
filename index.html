@@ -12,6 +12,7 @@
     
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/cesto.css" />
+    <link rel="stylesheet" href="css/mio.css" />
     <link rel="stylesheet" href="css/media.css" />
     <script src="js/modernizr.custom.js"></script>
   </head>
@@ -70,15 +71,6 @@
       </div>
       </div>
     </section>
-    <div class="floating-menu">
-   <ul class="menu-flotante">
-                <li><a id="enlace-uno" href="#s-dos" class="active">¿Qué es?</a></li>
-                <li><a id="enlace-cuatro" href="#s-cuatro" class="">Como utilizarlo</a></li>
-                <li><a id="enlace-cinco" href="#s-cinco" class="">Beneficios</a></li>
-                <li><a id="enlace-seis" href="#s-seis" class="">El papel del adulto</a></li>
-                <li><a id="enlace-siete" href="#s-siete" class="">Descúbrelo</a></li>
-              </ul>
-</div>
     <section id="s-dos">
       <div class="row">
         <div class="large-12 columns">
@@ -160,13 +152,13 @@
       <li class="exp">
         <a id="tumbado" href="#">
           <div class="como1"></div>
-          <div class="c-enlace">Antes de que el bebe se siente</div>
+          <div class="c-enlace1">Antes de que el bebe se siente</div>
       </a>
       </li>
       <li class="exp">
         <a id="sentado" href="#">
           <div class="como2"></div>
-          <div class="c-enlace">El bebé se sienta, pero todabía no anda</div>
+          <div class="c-enlace2">El bebé se sienta, pero todabía no anda</div>
         </a>
 
       </li>
@@ -370,34 +362,35 @@
           <p>Email: <a href="mailto:hola@cestodelostesoros.com">hola@cestodelostesoros.com</a></p>
           <p><a href="http://tienda.cestodelostesoros.com" target="_blank">Visite nuestra tienda</a><strong> ></strong> <img src="img/icono-cesta.png" alt="Visite nuestra tienda"></p>
         </div>
-      <div class="large-4 columns logo"><img src="img/logo-objek-g.png" alt="Öbjek"></div>
+         <div class="large-4 columns logo"><img src="img/logo-objek-g.png" alt="Öbjek"></div>
       </div>
     </section>
-
-    <script>
+        <script>
     document.write('<script src=' +
-    ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+    ('__proto__' in {} ? 'js/vendor/jquery' : 'js/vendor/jquery') +
     '.js><\/script>')
     </script>
+    <script src="js/froogaloop.js"></script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/jquery.cycle.all.js"></script>
     <script src="js/vendor/jquery.easing.js"></script>
-    <script type="text/javascript" src="js/froogaloop.js"></script>
     <script src="js/jquery.flipshow.js"></script>
     <script src="js/vendor/foundation.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/vimeo.js"></script>
 
     <script>
       $(document).foundation();
     </script>
  
-
-      <script>
-        $( function() {
-          
-          $('#fc-slideshow').flipshow();
-
-        } );
-      </script>
+    <script>
+      $(function() {
+        $('#fc-slideshow').flipshow();
+      });
+    </script>
+    <script>
+      $(function(){
+      })
+    </script>
 </body>
 </html>

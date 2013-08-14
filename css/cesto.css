@@ -407,6 +407,7 @@ text-align: center;
 
 }
 
+
 #s-cuatro a {
    
     color: #B0B0B0;
@@ -418,7 +419,7 @@ text-align: center;
      color: #595959;
 }
 
-#s-cuatro li.exp a:focus .como2 {
+#s-cuatro li.exp a.evento .como2 {
     background: url("../img/como2.png") no-repeat center;
      color: #595959;
 }

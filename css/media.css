@@ -3,9 +3,9 @@
 
 @media only screen and (max-width: 320px) {
   /* Small screen, non-retina */
-  #s-uno{ background-image: url("../img/media/uno290.jpg"); 
+/*  #s-uno{ background-image: url("../img/media/uno290.jpg"); 
 
-}
+}*/
 
 h2.tesoro { 
       text-align: center;
@@ -29,8 +29,7 @@ h2.tesoro {
   display: none;
 }
 
-.section-nav li {
-  
+.section-nav li {  
     display: block;
 }
 

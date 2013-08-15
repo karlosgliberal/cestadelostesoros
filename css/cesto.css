@@ -820,11 +820,12 @@ background: url("../img/fieltro3.png") repeat;
 }
 
 .video-frame {
-    background-color: #E8E1D9;
-    background-image: url("../img/bg3l.jpg");
-    background-position: 151% 15%;
+    background-color: #fff;
+    background-image: url("../img/bg31.jpg");
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     min-height: 631px;
+
 
 }
 
@@ -832,6 +833,7 @@ background: url("../img/fieltro3.png") repeat;
     position: relative;
     top: -489px;
     height: 0;
+    left: 55px;
 }
 
 

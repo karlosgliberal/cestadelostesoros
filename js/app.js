@@ -34,6 +34,32 @@ $(document).ready(function(){
     showElement: function($elem) { $elem.show(); }
     });
 */
+if(!$.browser){
+    $.browser={
+      chrome:false,
+      mozilla:false,
+      opera:false,
+      msie:false,
+      safari:false
+    };
+    var ua=navigator.userAgent;
+        $.each($.browser,function(c,a){
+        $.browser[c]=((new RegExp(c,'i').test(ua)))?true:false;
+            if($.browser.mozilla && c =='mozilla'){$.browser.mozilla=((new RegExp('firefox','i').test(ua)))?true:false;};
+            if($.browser.chrome && c =='safari'){$.browser.safari=false;};
+        });
+};
+
+
+  $('.video-player').append('<iframe id="player" src="http://player.vimeo.com/video/71340975?api=1&amp;player_id=player" width="800" height="400" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');
+  var iframe = $("iframe").get(0);
+  var api = $f(iframe);
+  api.addEvent('ready', function(){ 
+    if($.browser.mozilla){
+      api.api('play');
+    }
+  });
+
   $('ul.nav a').smoothScroll({
       afterScroll: function() {
         $('ul.nav li a').each(function(){
@@ -90,6 +116,7 @@ $(document).ready(function(){
     $('.video-player').fadeTo(900, 1);
     $('.video-frame').stop().animate({"opacity": "0.4"}, "slow");
     //player.api('play');
+    api.api('play');
     return false;
    });
 

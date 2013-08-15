@@ -53,10 +53,10 @@ if(!$.browser){
 
   $('.video-player').append('<iframe id="player" src="http://player.vimeo.com/video/71340975?api=1&amp;player_id=player" width="800" height="400" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');
   var iframe = $("iframe").get(0);
-  var api = $f(iframe);
-  api.addEvent('ready', function(){ 
+  var player = $f(iframe);
+  player.addEvent('ready', function(){ 
     if($.browser.mozilla){
-      api.api('play');
+      player.api('play');
     }
   });
 
@@ -114,17 +114,16 @@ if(!$.browser){
    $('#video_boton').click(function(event){
     $('.video-img').fadeTo(500, 0).hide();
     $('.video-player').fadeTo(900, 1);
-    $('.video-frame').stop().animate({"opacity": "0.4"}, "slow");
-    //player.api('play');
-    api.api('play');
+    $('.video-frame').stop().animate({"opacity": "0.2"}, "slow");
+    player.api('play');
     return false;
    });
 
    $('.form-close').click(function(event){
-    //player.api('pause');
-    $('.video-frame').stop().animate({"opacity": "0"}, "slow");
+    player.api('pause');
     $('.video-player').fadeTo(900, 0);
     $('.video-img').fadeTo(500, 1).show();
+    $('.video-frame').stop().animate({"opacity": "1"}, "slow");
    });
    $('.fc-slideshow').mouseenter(function(){
       $('#uno').removeClass('evento-beneficios');

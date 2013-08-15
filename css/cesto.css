@@ -1063,3 +1063,12 @@ section#s-tres .title-wrapper {
 section#s-tres {
     background-color: #000;
 }
+
+.video-img {
+    padding-top: 40px;
+}
+
+.snow {
+    background-color: #fff;
+    opacity: 0.9;
+}

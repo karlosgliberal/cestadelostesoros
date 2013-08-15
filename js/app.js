@@ -33,6 +33,20 @@ $(document).ready(function(){
   };
 
 
+  $('ul.nav a').smoothScroll({
+      afterScroll: function() {
+        $('ul.nav li a').each(function(){
+          $(this).removeClass('active');
+        })
+
+        $(this).addClass('active')
+      },
+      easing: 'swing',
+      speed: 2000,
+      autoCoefficent: 3
+
+    });
+
    $('#slideshow').cycle({
    	  timeout: 0,
    	  fx:      'scrollRight',

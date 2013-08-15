@@ -800,13 +800,12 @@ background: url("../img/fieltro3.png") repeat;
 
 
 .video-container {
-min-height: 400px;
+
 }
 
 
 .video-img  {
    text-align: center;
-   padding-top: 170px;
 }
 
 .video-img a:hover {
@@ -820,11 +819,11 @@ min-height: 400px;
 }
 
 .video-frame {
-     background-image: url("../img/bg3.jpg");
- min-height: 1100px;
-     background-repeat: no-repeat;
-    background-position: 50% 100%;
     background-color: #E8E1D9;
+    background-image: url("../img/bg3l.jpg");
+    background-position: 151% 15%;
+    background-repeat: no-repeat;
+    min-height: 631px;
 
 }
 
@@ -834,10 +833,7 @@ min-height: 400px;
     height: 0;
 }
 
-.video-container {
-    background: url("../img/bgn.png") repeat;
-    
-}
+
 
 .form-close a {
     color: #FFFFFF;
@@ -1062,4 +1058,8 @@ padding: 0px;
 
 section#s-tres .title-wrapper {
     padding-top: 100px;
+}
+
+section#s-tres {
+    background-color: #000;
 }

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+/*
   $(window).stellar({
      // Set scrolling to be in either one or both directions
   horizontalScrolling: false,
@@ -33,7 +33,7 @@ $(document).ready(function(){
     hideElement: function($elem) { $elem.hide(); },
     showElement: function($elem) { $elem.show(); }
     });
-
+*/
   $('ul.nav a').smoothScroll({
       afterScroll: function() {
         $('ul.nav li a').each(function(){
@@ -100,7 +100,6 @@ $(document).ready(function(){
     $('.video-img').fadeTo(500, 1).show();
    });
    $('.fc-slideshow').mouseenter(function(){
-        console.log('mouse:$window');
       $('#uno').removeClass('evento-beneficios');
       $('.icon-arrow-left').removeClass('primerhover');
    });

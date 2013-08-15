@@ -52,8 +52,8 @@ background-position: 50% -1%;
 background-color: #FEF6EB;
 background-image: url("../img/bg2.jpg");
 background-repeat: no-repeat;
-padding-bottom: 400px;
-background-position: 50% -82%;
+padding-bottom: 300px;
+background-position: 50% -4%;
 
 
 }
@@ -878,10 +878,8 @@ text-decoration: underline;
 }
 
 #s-dos .title-wrapper {
-    padding-top: 100px;
+    padding-top: 142px;
 }
-
-
 
 
 div.floating-menu {

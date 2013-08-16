@@ -208,42 +208,6 @@ text-align: right;
 margin: 0;
 }
 
-/*Experimento*/
-
-/*div.tesoro
-
-{
-font-family:'Tesoro',Sans-Serif;
-font-style: normal;
-font-size: 1.6em;
-color: #595959;
-font-weight: normal;
-margin: 0;
-float: left;
-position: relative;
-top: -9px;
-}
-
-div.tit {
-margin: 0;  
-padding: 0px 0px 0px 5px;
-font-family: "Georgia",serif;
-font-style: normal;
-font-weight: bold;  
-color: #595959;
-font-size: 1.2em;
-letter-spacing: -2px;*/
-/*    transform: scale(1, 1.2); 
-    -webkit-transform:scale(1, 1.2);
-    -moz-transform:scale(1, 1.2);
-    -ms-transform:scale(1, 1.2); 
-    -o-transform:scale(1, 1.2);*/
-/*}*/
-/*section#s-dos .title-wrapper {
-  padding-left: 80px;   
-}*/
-
-
 
 
 section#s-cuatro .title-wrapper,
@@ -880,11 +844,9 @@ text-decoration: underline;
 }
 
 
-div.floating-menu {
-    position:fixed;
+#menu-lateral {
     width:150px;
     z-index:100;
-    right: 15px;
 
 }
 div.floating-menu a, 
@@ -1087,4 +1049,11 @@ padding: 0px 40px;
 
 .footer-texto {
     padding-top: 20px;
+}
+
+[data-magellan-cesto] {
+    background: purple;
+    min-width: 11%;
+    padding: 40px;
+    z-index: 50;
 }

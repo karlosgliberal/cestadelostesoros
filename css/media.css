@@ -127,11 +127,55 @@ only screen and (        min-device-pixel-ratio: 2)      and (min-width: 539px),
 only screen and (                min-resolution: 192dpi) and (min-width: 539px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 539px) {
   /* Large screen, retina */
- 
-  h2.tesoro { text-align: left;
-    background-color: orange;
+    h2.tesoro { 
+      text-align: center;
+      font-size: 2em;
+  border-top: 1px solid purple;
 
-  }
+    }
+    h2.tit { 
+      font-size: 1.6em;
+      margin: 0 0 26px;
+      text-align: center
+   }
+    #s-uno {
+      padding-bottom: 50px;
+    }
+
+    .img-principal {
+    left: 0px;
+}
+
+.cesto-menu-logo {
+  width: 100px;
+}
+.l-objek {
+
+  width: 60px;
+}  
+
+.menu-logo {
+
+width: 80px;
+
+} 
+
+ul.img-menu {
+    float: left;
+    width: 30%;
+}
+#section-nav {
+    width: 70%;
+}
+
+.section-nav li {
+    font-size: 0.5em;
+}
+
+p {
+  text-align: center;
+}
+
 }
 
 /*Solo modo horizontal*/

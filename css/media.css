@@ -56,6 +56,7 @@ only screen and (                min-resolution: 2dppx)  and (max-width: 320px) 
     h2.tesoro { 
       text-align: center;
       font-size: 2em;
+  border-top: 1px solid purple;
 
     }
     h2.tit { 
@@ -70,7 +71,37 @@ only screen and (                min-resolution: 2dppx)  and (max-width: 320px) 
     .img-principal {
     left: 0px;
 }
-     
+
+.cesto-menu-logo {
+  width: 100px;
+}
+.l-objek {
+
+  width: 60px;
+}  
+
+.menu-logo {
+
+width: 80px;
+
+} 
+
+ul.img-menu {
+    float: left;
+    width: 30%;
+}
+#section-nav {
+    width: 70%;
+}
+
+.section-nav li {
+    font-size: 0.5em;
+}
+
+p {
+  text-align: center;
+}
+
 }
 
 @media
@@ -83,7 +114,9 @@ only screen and (                min-resolution: 192dpi) and (min-width: 321px) 
 only screen and (                min-resolution: 2dppx)  and (min-width: 321px) and (max-width: 538px) {
   /* Medium screen, retina */
   #s-uno{ background-image: url("../img/media/uno538@2.jpg"); }
-  h2.tesoro { text-align: left;}
+  h2.tesoro { text-align: left;
+background-color: olive;
+  }
 }
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 539px),
@@ -94,8 +127,11 @@ only screen and (        min-device-pixel-ratio: 2)      and (min-width: 539px),
 only screen and (                min-resolution: 192dpi) and (min-width: 539px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 539px) {
   /* Large screen, retina */
-  #s-uno{ background-image: url("../img/media/uno970@2.jpg"); }
-  h2.tesoro { text-align: left;}
+ 
+  h2.tesoro { text-align: left;
+    background-color: purple;
+
+  }
 }
 
 /*Solo modo horizontal*/

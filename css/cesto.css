@@ -1051,9 +1051,22 @@ padding: 0px 40px;
     padding-top: 20px;
 }
 
-[data-magellan-cesto] {
-    background: purple;
-    min-width: 11%;
-    padding: 40px;
-    z-index: 50;
+#warning-message { 
+ display: none; 
+ background: url("../img/textura.png") repeat scroll 0 0 transparent;
 }
+
+
+.texto-orientacion {
+    text-align: center;
+    margin: 10px 30px;
+}
+
+.aviso-logo {
+    margin: 20px 0px;
+ 
+ 
+}
+
+
+

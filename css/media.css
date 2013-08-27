@@ -73,10 +73,6 @@ only screen and (                min-resolution: 2dppx)  and (max-width: 320px) 
      
     }
 
-
-
-
-
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 321px) and (max-width: 538px),
 only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 321px) and (max-width: 538px),
@@ -102,5 +98,16 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 539px) 
   h2.tesoro { text-align: left;}
 }
 
+/*Solo modo horizontal*/
 
+@media only screen and (orientation:portrait){
+        #cesto-wrapper { display:none; }
+        #warning-message { display:block; }
+        body {background: url("../img/textura.png") repeat scroll 0 0 transparent;}
+
+    }
+    @media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+
+    }
 

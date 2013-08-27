@@ -2,16 +2,12 @@
 
 
 @media only screen and (max-width: 320px) {
-  /* Small screen, non-retina */
-/*  #s-uno{ background-image: url("../img/media/uno290.jpg"); 
-
-}*/
 
 h2.tesoro { 
       text-align: center;
       font-size: 2em;
 
-    }
+}
     h2.tit { 
       font-size: 1.6em;
       margin: 0 0 26px;
@@ -76,7 +72,11 @@ only screen and (                min-resolution: 2dppx)  and (max-width: 320px) 
 }
      
     }
-}
+
+
+
+
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 321px) and (max-width: 538px),
 only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 321px) and (max-width: 538px),
@@ -101,4 +101,6 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 539px) 
   #s-uno{ background-image: url("../img/media/uno970@2.jpg"); }
   h2.tesoro { text-align: left;}
 }
+
+
 

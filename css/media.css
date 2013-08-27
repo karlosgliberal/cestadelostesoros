@@ -129,7 +129,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 539px) 
   /* Large screen, retina */
  
   h2.tesoro { text-align: left;
-    background-color: purple;
+    background-color: orange;
 
   }
 }

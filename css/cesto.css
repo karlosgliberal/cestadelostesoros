@@ -1056,6 +1056,10 @@ padding: 0px 40px;
  background: url("../img/textura.png") repeat scroll 0 0 transparent;
 }
 
+#video-play-responsive {
+    display: none;
+}
+
 
 .texto-orientacion {
     text-align: center;
@@ -1065,7 +1069,10 @@ padding: 0px 40px;
 .aviso-logo {
     margin: 20px 0px;
  
- 
+}
+
+#s-cuatro-responsive {
+    display: none;
 }
 
 

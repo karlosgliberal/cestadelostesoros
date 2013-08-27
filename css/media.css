@@ -76,9 +76,12 @@ only screen and (                min-resolution: 2dppx)  and (max-width: 320px) 
   width: 100px;
 }
 .l-objek {
-
-  width: 60px;
+  padding: 4px 0 0 6px;
+  width: 45px;
 }  
+.pre {
+text-align: center;
+}
 
 .menu-logo {
 
@@ -88,18 +91,41 @@ width: 80px;
 
 ul.img-menu {
     float: left;
-    width: 30%;
+    width: 27%;
 }
 #section-nav {
     width: 70%;
 }
 
 .section-nav li {
-    font-size: 0.5em;
+     background-color: #000000;
+    display: inline-block;
+    font-size: 0.567em;
+    padding: 10px 5px;
+}
+
+#menu {
+    height: 32px;
 }
 
 p {
   text-align: center;
+}
+
+
+#video-play {
+  display: none;
+}
+
+#video-play-responsive {
+  display: block;
+}
+#s-cuatro-responsive {
+    display: block;
+}
+
+#s-cuatro {
+  display: none;
 }
 
 }
@@ -118,16 +144,17 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 321px) 
 background-color: olive;
   }
 }
-@media
+
+/*@media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 539px),
 only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 539px),
 only screen and (   -moz-min-device-pixel-ratio: 2)      and (min-width: 539px),
 only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 539px),
 only screen and (        min-device-pixel-ratio: 2)      and (min-width: 539px),
 only screen and (                min-resolution: 192dpi) and (min-width: 539px),
-only screen and (                min-resolution: 2dppx)  and (min-width: 539px) {
+only screen and (                min-resolution: 2dppx)  and (min-width: 539px) {*/
   /* Large screen, retina */
-    h2.tesoro { 
+/*    h2.tesoro { 
       text-align: center;
       font-size: 2em;
   border-top: 1px solid purple;
@@ -175,21 +202,28 @@ ul.img-menu {
 p {
   text-align: center;
 }
-
+#video-play {
+  display: none;
 }
+
+#video-play-responsive {
+  display: block;
+  border: 2px solid purple;
+}
+
+}*/
 
 /*Solo modo horizontal*/
 
-@media only screen and (orientation:portrait) and (max-width: 767px)  {
+@media only screen and (orientation:portrait) and (max-width: 767px) {
         #cesto-wrapper { display:none; }
         #warning-message { display:block; }
         body {background: url("../img/textura.png") repeat scroll 0 0 transparent;}
     }
 
 
-@media only screen and (orientation:landscape){
+@media only screen and (orientation:landscape) {
         #warning-message { display:none; }
-
 }
 
 

@@ -56,8 +56,6 @@ only screen and (                min-resolution: 2dppx)  and (max-width: 320px) 
 h2.tesoro { 
 text-align: center;
 font-size: 2em;
-border-top: 1px solid purple;
-
 }
 
 h2.tit { 
@@ -127,6 +125,7 @@ text-align: center;
 }
 #s-cuatro-responsive, #s-cinco-responsive {
     display: block;
+   padding-top: 100px;
 }
 
 #s-cuatro, #s-cinco {
@@ -141,7 +140,7 @@ a#tumbado, a#sentado, a#mueve {
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
-    color: #000;
+    color: #595959;
 }
 
 .como1 {
@@ -156,12 +155,21 @@ a#tumbado, a#sentado, a#mueve {
       background: url("../img/como3.png") no-repeat center;
 }
 
+#s-cinco-responsive h4 {
+  color: #BC1727;
+  text-align: center;
+  font-size: 1.9em;
+}
+
+#s-cinco-responsive strong {
+font-weight: bold;
+color: #595959;
+}
 
 
-
-
-
-
+.circle-texto {
+  margin: 50px 0px;
+}
 
 
 

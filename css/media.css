@@ -53,55 +53,60 @@ only screen and (                min-resolution: 2dppx)  and (max-width: 320px) 
 @media only screen and (min-width: 321px) and (max-width: 538px) {
   /* Medium screen, non-retina */
     
-    h2.tesoro { 
-      text-align: center;
-      font-size: 2em;
-  border-top: 1px solid purple;
+h2.tesoro { 
+text-align: center;
+font-size: 2em;
+border-top: 1px solid purple;
 
-    }
-    h2.tit { 
-      font-size: 1.6em;
-      margin: 0 0 26px;
-      text-align: center
-   }
-    #s-uno {
-      padding-bottom: 50px;
-    }
+}
 
-    .img-principal {
-    left: 0px;
+h2.tit { 
+font-size: 1.6em;
+margin: 0 0 26px;
+text-align: center
+}
+
+#s-uno {
+padding-bottom: 50px;
+}
+
+.img-principal {
+left: 0px;
 }
 
 .cesto-menu-logo {
   width: 100px;
 }
+
 .l-objek {
-  padding: 4px 0 0 6px;
-  width: 45px;
+padding: 4px 0 0 6px;
+width: 45px;
 }  
+
 .pre {
 text-align: center;
 }
 
+
 .menu-logo {
-
 width: 80px;
-
 } 
 
 ul.img-menu {
-    float: left;
-    width: 27%;
+float: left;
+width: 27%;
 }
+
 #section-nav {
-    width: 70%;
+width: 70%;
 }
 
 .section-nav li {
-     background-color: #000000;
-    display: inline-block;
-    font-size: 0.567em;
-    padding: 10px 5px;
+
+background-color: #000000;
+display: inline-block;
+font-size: 0.567em;
+padding: 10px 5px;
 }
 
 #menu {
@@ -109,7 +114,7 @@ ul.img-menu {
 }
 
 p {
-  text-align: center;
+text-align: center;
 }
 
 
@@ -120,13 +125,45 @@ p {
 #video-play-responsive {
   display: block;
 }
-#s-cuatro-responsive {
+#s-cuatro-responsive, #s-cinco-responsive {
     display: block;
 }
 
-#s-cuatro {
+#s-cuatro, #s-cinco {
   display: none;
 }
+
+#s-cinco-responsive {
+  background: url("../img/fieltro1.png") repeat;
+}
+
+a#tumbado, a#sentado, a#mueve {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+}
+
+.como1 {
+    background: url("../img/como1.png") no-repeat center;
+}
+
+.como2{
+    background: url("../img/como2.png") no-repeat center;
+}
+
+.como3 {
+      background: url("../img/como3.png") no-repeat center;
+}
+
+
+
+
+
+
+
+
+
 
 }
 

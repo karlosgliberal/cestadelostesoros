@@ -1,7 +1,7 @@
 
 
 
-@media only screen and (max-width: 320px) {
+/*@media only screen and (max-width: 320px) {
 
 h2.tesoro { 
       text-align: center;
@@ -35,8 +35,8 @@ h2.tesoro {
 }
 
 
-}
-@media
+}*/
+/*@media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (max-width: 320px),
 only screen and (   min--moz-device-pixel-ratio: 2)      and (max-width: 320px),
 only screen and (   -moz-min-device-pixel-ratio: 2)      and (max-width: 320px),
@@ -44,15 +44,27 @@ only screen and (     -o-min-device-pixel-ratio: 2/1)    and (max-width: 320px),
 only screen and (        min-device-pixel-ratio: 2)      and (max-width: 320px),
 only screen and (                min-resolution: 192dpi) and (max-width: 320px),
 only screen and (                min-resolution: 2dppx)  and (max-width: 320px) {
-  /* Small screen, retina */
   #s-uno{ background-image: url("../img/media/uno290@2.jpg"); }
-}
+}*/
 
 
 
 @media only screen and (min-width: 321px) and (max-width: 539px) {
   /* Medium screen, non-retina */
+
+
+#s-uno {
+    background-image: url("../img/bg1-mv1.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 280px;
     
+}
+
+.c-enlace1 {
+margin-bottom: 20px;
+}
+  
 h2.tesoro { 
 text-align: center;
 }
@@ -63,9 +75,6 @@ margin: 0 0 26px;
 text-align: center
 }
 
-#s-uno {
-padding-bottom: 50px;
-}
 
 .img-principal {
 text-align: center;
@@ -112,6 +121,8 @@ padding: 10px 5px;
 
 p {
 text-align: center;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 

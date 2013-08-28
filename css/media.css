@@ -210,73 +210,156 @@ background-color: olive;
   }
 }
 
-/*@media
+@media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 539px),
 only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 539px),
 only screen and (   -moz-min-device-pixel-ratio: 2)      and (min-width: 539px),
 only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 539px),
 only screen and (        min-device-pixel-ratio: 2)      and (min-width: 539px),
 only screen and (                min-resolution: 192dpi) and (min-width: 539px),
-only screen and (                min-resolution: 2dppx)  and (min-width: 539px) {*/
+only screen and (                min-resolution: 2dppx)  and (min-width: 539px) {
   /* Large screen, retina */
-/*    h2.tesoro { 
-      text-align: center;
-      font-size: 2em;
-  border-top: 1px solid purple;
+#s-uno {
+    background-image: url("../img/bg1-mv1.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 280px;
+    
+}
 
-    }
-    h2.tit { 
-      font-size: 1.6em;
-      margin: 0 0 26px;
-      text-align: center
-   }
-    #s-uno {
-      padding-bottom: 50px;
-    }
+.c-enlace1 {
+margin-bottom: 20px;
+}
+  
+h2.tesoro { 
+text-align: center;
+}
 
-    .img-principal {
-    left: 0px;
+h2.tit { 
+font-size: 2.5em;
+margin: 0 0 26px;
+text-align: center
+}
+
+
+.img-principal {
+text-align: center;
 }
 
 .cesto-menu-logo {
   width: 100px;
 }
-.l-objek {
 
-  width: 60px;
+.l-objek {
+padding: 4px 0 0 6px;
+width: 45px;
 }  
 
+.pre {
+text-align: center;
+}
+
+
 .menu-logo {
-
 width: 80px;
-
 } 
 
 ul.img-menu {
-    float: left;
-    width: 30%;
+float: left;
+width: 27%;
 }
+
 #section-nav {
-    width: 70%;
+width: 70%;
 }
 
 .section-nav li {
-    font-size: 0.5em;
+
+background-color: #000000;
+display: inline-block;
+font-size: 0.567em;
+padding: 10px 5px;
+}
+
+#menu {
+    height: 32px;
 }
 
 p {
-  text-align: center;
+text-align: center;
+  margin-left: 2em;
+  margin-right: 2em;
 }
+
+
 #video-play {
   display: none;
 }
 
 #video-play-responsive {
   display: block;
-  border: 2px solid purple;
+}
+#s-cuatro-responsive, #s-cinco-responsive {
+    display: block;
+   padding-top: 100px;
 }
 
-}*/
+#s-cuatro, #s-cinco {
+  display: none;
+}
+
+#s-cinco-responsive {
+  background: url("../img/fieltro1.png") repeat;
+}
+
+a#tumbado, a#sentado, a#mueve {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #595959;
+}
+
+.como1 {
+    background: url("../img/como1.png") no-repeat center;
+}
+
+.como2{
+    background: url("../img/como2.png") no-repeat center;
+}
+
+.como3 {
+      background: url("../img/como3.png") no-repeat center;
+}
+
+#s-cinco-responsive h4 {
+  color: #BC1727;
+  text-align: center;
+  font-size: 1.9em;
+}
+
+#s-cinco-responsive strong {
+font-weight: bold;
+color: #595959;
+}
+
+
+.circle-texto {
+  margin: 50px 0px;
+}
+
+.footer-texto p {
+  text-align: left;
+}
+span.tienda {
+    padding: 0 60px;
+}
+
+
+#footer p {
+    line-height: 30px;
+}
+
+}
 
 /*Solo modo horizontal*/
 

@@ -61,6 +61,26 @@ only screen and (                min-resolution: 2dppx)  and (max-width: 320px) 
     
 }
 
+
+#s-dos {
+    background-image: url("../img/bg2-mv.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+}
+
+#s-cuatro-responsive {
+    background: url("../img/textura.png") repeat scroll 0 0 transparent;
+}
+
+.video-frame {
+    background-image: url("../img/bg3-mv.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 355px;
+
+}
+
 .c-enlace1 {
 margin-bottom: 20px;
 }
@@ -192,6 +212,11 @@ span.tienda {
 #footer p {
     line-height: 30px;
 }
+
+section#s-cuatro .title-wrapper, section#s-cinco .title-wrapper, section#s-seis .title-wrapper, section#s-siete .title-wrapper {
+    padding-top: 60px;
+}
+
 
 }
 

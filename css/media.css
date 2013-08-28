@@ -55,11 +55,10 @@ only screen and (                min-resolution: 2dppx)  and (max-width: 320px) 
     
 h2.tesoro { 
 text-align: center;
-font-size: 2em;
 }
 
 h2.tit { 
-font-size: 1.6em;
+font-size: 2.5em;
 margin: 0 0 26px;
 text-align: center
 }
@@ -69,7 +68,7 @@ padding-bottom: 50px;
 }
 
 .img-principal {
-left: 0px;
+text-align: center;
 }
 
 .cesto-menu-logo {
@@ -171,7 +170,17 @@ color: #595959;
   margin: 50px 0px;
 }
 
+.footer-texto p {
+  text-align: left;
+}
+span.tienda {
+    padding: 0 60px;
+}
 
+
+#footer p {
+    line-height: 30px;
+}
 
 }
 

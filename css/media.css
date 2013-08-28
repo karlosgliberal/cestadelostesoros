@@ -1,54 +1,6 @@
 
 
 
-/*@media only screen and (max-width: 320px) {
-
-h2.tesoro { 
-      text-align: center;
-      font-size: 2em;
-
-}
-    h2.tit { 
-      font-size: 1.6em;
-      margin: 0 0 26px;
-       text-align: center;
-   }
-    #s-uno {
-      padding-bottom: 50px;
-    }
-
-    .img-principal {
-    left: 0px;
-}
-
-.img-menu{
-  display: none;
-}
-
-.section-nav li {  
-    display: block;
-}
-
-#section-nav {
-    float: none;
-    width: 100%;
-}
-
-
-}*/
-/*@media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (max-width: 320px),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (max-width: 320px),
-only screen and (   -moz-min-device-pixel-ratio: 2)      and (max-width: 320px),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (max-width: 320px),
-only screen and (        min-device-pixel-ratio: 2)      and (max-width: 320px),
-only screen and (                min-resolution: 192dpi) and (max-width: 320px),
-only screen and (                min-resolution: 2dppx)  and (max-width: 320px) {
-  #s-uno{ background-image: url("../img/media/uno290@2.jpg"); }
-}*/
-
-
-
 @media only screen and (min-width: 321px) and (max-width: 539px) {
   /* Medium screen, non-retina */
 
@@ -74,11 +26,28 @@ only screen and (                min-resolution: 2dppx)  and (max-width: 320px) 
 }
 
 .video-frame {
+ background: none;
+ padding: 0;
+
+}
+
+#s-tres {
     background-image: url("../img/bg3-mv.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
     padding-bottom: 355px;
 
+}
+
+.snow {
+  background: none;
+}
+
+#s-seis {
+    background-image: url("../img/bg4-mv.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 310px;
 }
 
 .c-enlace1 {
@@ -213,27 +182,21 @@ span.tienda {
     line-height: 30px;
 }
 
-section#s-cuatro .title-wrapper, section#s-cinco .title-wrapper, section#s-seis .title-wrapper, section#s-siete .title-wrapper {
-    padding-top: 60px;
+section#s-tres .title-wrapper, section#s-cuatro .title-wrapper, section#s-cinco .title-wrapper, section#s-seis .title-wrapper, section#s-siete .title-wrapper {
+    padding-top: 0px;
+}
+section#s-cuatro-responsive , 
+section#s-cinco-responsive , 
+section#s-seis,
+section#s-tres
+ {
+    padding-top: 100px;
 }
 
 
 }
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 321px) and (max-width: 538px),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 321px) and (max-width: 538px),
-only screen and (   -moz-min-device-pixel-ratio: 2)      and (min-width: 321px) and (max-width: 538px),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 321px) and (max-width: 538px),
-only screen and (        min-device-pixel-ratio: 2)      and (min-width: 321px) and (max-width: 538px),
-only screen and (                min-resolution: 192dpi) and (min-width: 321px) and (max-width: 538px),
-only screen and (                min-resolution: 2dppx)  and (min-width: 321px) and (max-width: 538px) {
-  /* Medium screen, retina */
-  #s-uno{ background-image: url("../img/media/uno538@2.jpg"); }
-  h2.tesoro { text-align: left;
-background-color: olive;
-  }
-}
+
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 539px),
@@ -252,6 +215,43 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 539px) 
     
 }
 
+
+#s-dos {
+    background-image: url("../img/bg2-mv.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+}
+
+#s-cuatro-responsive {
+    background: url("../img/textura.png") repeat scroll 0 0 transparent;
+}
+
+.video-frame {
+ background: none;
+ padding: 0;
+
+}
+
+#s-tres {
+    background-image: url("../img/bg3-mv.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 355px;
+
+}
+
+.snow {
+  background: none;
+}
+
+#s-seis {
+    background-image: url("../img/bg4-mv.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 310px;
+}
+
 .c-enlace1 {
 margin-bottom: 20px;
 }
@@ -384,7 +384,20 @@ span.tienda {
     line-height: 30px;
 }
 
+section#s-tres .title-wrapper, section#s-cuatro .title-wrapper, section#s-cinco .title-wrapper, section#s-seis .title-wrapper, section#s-siete .title-wrapper {
+    padding-top: 0px;
 }
+section#s-cuatro-responsive , 
+section#s-cinco-responsive , 
+section#s-seis,
+section#s-tres
+ {
+    padding-top: 100px;
+}
+
+
+}
+
 
 /*Solo modo horizontal*/
 

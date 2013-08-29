@@ -4053,7 +4053,7 @@ kbd {
 [data-magellan-expedition] {
   background: white;
   z-index: 50;
-  min-width: 100%;
+/*  min-width: 100%;*/
   padding: 10px; }
   [data-magellan-expedition] .sub-nav {
     margin-bottom: 0; }

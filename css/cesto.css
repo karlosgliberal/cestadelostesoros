@@ -284,7 +284,6 @@ ul.s-como li {
 
 
 section#footer {
-    margin: 0;
     padding: 10px;
 
 }
@@ -1032,8 +1031,8 @@ section#s-tres {
 }
 
 .snow {
-    background-color: #fff;
-    opacity: 0.9;
+    padding: 20px;
+    background: url("../img/sientate-bg.png") repeat;
 }
 
 #footer span.contacta {
@@ -1098,4 +1097,9 @@ line-height:2em;
     padding: 20px 0px 0px 40px;
 }
 
+
+section {
+    width: 1600px;
+    margin: 0 auto;
+}
 

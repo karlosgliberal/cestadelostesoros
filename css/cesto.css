@@ -1,8 +1,10 @@
 
 @font-face {
 	font-family: 'Tesoro';
-	src: url('../fonts/FairpNarBooIta.eot');
-	src: local('☺'), url('../fonts/FairpNarBooIta.woff') format('woff'), url('../fonts/FairpNarBooIta.ttf') format('truetype'), url('../fonts/FairpNarBooIta.svg') format('svg');
+	src: url('../fonts/FairpNarBooIta.eot'),
+     url('../fonts/FairpNarBooIta.ttf') format('truetype'), 
+    url('../fonts/FairpNarBooIta.woff') format('woff'), 
+    url('../fonts/FairpNarBooIta.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

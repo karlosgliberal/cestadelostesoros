@@ -193,6 +193,10 @@ section#s-tres
     padding-top: 80px;
 }
 
+#footer .logo {
+    padding-top: 50px;
+    text-align: center;
+}
 
 }
 
@@ -394,7 +398,10 @@ section#s-tres
  {
     padding-top: 80px;
 }
-
+#footer .logo {
+    padding-top: 50px;
+    text-align: center;
+}
 
 }
 

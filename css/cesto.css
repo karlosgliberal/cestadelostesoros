@@ -1031,7 +1031,7 @@ section#s-tres {
 }
 
 .snow {
-    padding: 20px;
+     padding: 20px 20px 10px;
     background: url("../img/sientate-bg.png") repeat;
 }
 
@@ -1098,8 +1098,8 @@ line-height:2em;
 }
 
 
-section {
+/*section {
     width: 1600px;
     margin: 0 auto;
 }
-
+*/

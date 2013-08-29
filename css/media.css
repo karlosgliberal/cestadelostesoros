@@ -420,3 +420,15 @@ section#s-tres
 }
 
 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+.section-nav li {
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 10px 6px;
+}
+}
+

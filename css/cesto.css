@@ -292,10 +292,7 @@ section#footer {
 
 #footer p {
     color:#fff;
-    font-style: italic;
     padding-left: 3px;
-    font-size: 16px;
-
 }
 
 #footer h3 {
@@ -1077,5 +1074,28 @@ padding: 0px 40px;
     display: none;
 }
 
+
+.f-contacta {
+font-size: 1.3em;
+line-height:2em;
+    font-style: italic;
+}
+
+.todo-contacta {
+    font-size: 1em;
+    line-height: 0;
+}
+
+.tienda-contacta {
+    font-size: 1em;
+    line-height: 0;
+        line-height: 4em;
+}
+
+
+
+.contactar-footer {
+    padding: 20px 0px 0px 40px;
+}
 
 

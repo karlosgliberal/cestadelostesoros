@@ -47,15 +47,15 @@ background-image: url("../img/bg1.jpg");
 background-repeat: no-repeat;
 /*background-size: cover;*/
 padding-bottom: 200px;
-background-position: 50% -1%;
+background-position: 50% 0%;
 
 }
 
 #s-dos {
 background-image: url("../img/bg2.jpg");
 background-repeat: no-repeat;
-padding-bottom: 300px;
-background-position: 50% -4%;
+padding-bottom: 350px;
+background-position: 50% 0%;
 
 
 }

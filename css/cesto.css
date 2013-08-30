@@ -9,6 +9,17 @@
 	font-style: normal;
 }
 
+@font-face {
+    font-family: 'Tesoro2';
+    src: url('../fonts/FairpNarBol.eot'),
+     url('../fonts/FairpNarBol.ttf')  format('truetype'), 
+    url('../fonts/FairpNarBol.woff') format('woff'),
+    url('../fonts/FairpNarBol.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 p {
 	font-family: "Georgia", serif;
 	font-size: 17px;
@@ -71,7 +82,7 @@ padding-bottom: 100px;
 
 #s-cinco {
 min-height: 800px;
-background: url("../img/fieltro1.png") repeat;
+background: url("../img/textura1.jpg") repeat;
 }
 
 
@@ -157,7 +168,7 @@ li.control {
 
 ul.img-menu{
 float: left;
-width: 35%;
+width: 32%;
 
 }
 
@@ -179,7 +190,7 @@ width: 35%;
 
 
 /*H1 H2 */
-
+/*
 h2.tit {
 margin: 0;	
 padding: 0px 0px 0px 5px;
@@ -189,11 +200,23 @@ font-weight: bold;
 color: #595959;
 font-size: 2.7em;
 letter-spacing: -2px;
-	transform: scale(1, 1.2); /* Safari and Chrome */
-    -webkit-transform:scale(1, 1.2); /* Safari and Chrome */
-    -moz-transform:scale(1, 1.2); /* Firefox */
-    -ms-transform:scale(1, 1.2); /* IE 9 */
-    -o-transform:scale(1, 1.2); /* Opera */
+	transform: scale(1, 1.2); 
+    -webkit-transform:scale(1, 1.2); 
+    -moz-transform:scale(1, 1.2); 
+    -ms-transform:scale(1, 1.2); 
+    -o-transform:scale(1, 1.2); 
+}
+*/
+
+
+h2.tit {
+margin: 0;  
+padding: 0px 0px 0px 5px;
+font-family: "Tesoro2",serif;
+font-style: normal;
+font-weight: normal;  
+color: #595959;
+  font-size: 3.5em;
 }
 
 h2.tesoro
@@ -205,7 +228,7 @@ font-size: 3.5em;
 color: #595959;
 font-weight: normal;
 position: relative;
-top: -8px;
+top: 0px;
 text-align: right;
 margin: 0;
 }
@@ -407,7 +430,7 @@ Efecto*/
     position: relative;
     width: 350px;
     height: 350px;
-    box-shadow: inset 0 0 3px rgba(0,0,0,0.4), 0 0 0 8px #BC1727;
+    box-shadow: inset 0 0 3px rgba(0,0,0,1), 0 0 0 8px #BC1727;
     border-radius: 50%;
     margin: 0 auto;
     -webkit-perspective: 1200px;
@@ -755,12 +778,14 @@ span#cinco {
 }
 
 .fc-slideshow {
-background: url("../img/fieltro3.png") repeat;
+
 }
 
 /*Fin efecto*/
 
-
+ul.fc-slides li p {
+    color: #000;
+}
 
 .video-container {
 
@@ -1098,11 +1123,11 @@ line-height:2em;
 }
 
 
-/*section {
+section {
     width: 1600px;
     margin: 0 auto;
 }
-*/
+
 
 
 

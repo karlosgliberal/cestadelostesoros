@@ -1103,3 +1103,75 @@ line-height:2em;
     margin: 0 auto;
 }
 */
+
+
+.fixed{display:fixed;}
+
+ul#menu-comprar {
+    z-index:1010;
+    position:fixed;
+    right:40px;
+    top:150px;
+    margin:0;
+    padding:0;
+    height:50px;
+    list-style:none;
+}
+
+ul#menu-comprar li{
+    position:absolute;
+    top:0;
+    right:-321px;
+    margin-bottom:5px;
+    background-color: #BC1727;
+    color:#FFF;
+    font-size:14px;
+    border-radius:6px 0 0 6px;
+    -webkit-transition:all 260ms cubic-bezier(0.26,0.67,0.27,1);
+    -moz-transition:all 260ms cubic-bezier(0.26,0.67,0.27,1); 
+    -o-transition:all 260ms cubic-bezier(0.26,0.67,0.27,1);  
+    transition:all 260ms cubic-bezier(0.26,0.67,0.27,1);
+    height:50px;
+    width:321px;
+    /*box-shadow:0 0 3px rgba(0,0,0,0.5);*/
+    cursor:pointer;
+}
+
+ul#menu-comprar li:hover{
+    right:-50px;
+}
+
+ul#menu-comprar li .tab{
+    position:relative;
+    height:50px;
+    width:50px;
+    background-position:center center;
+    background-repeat:no-repeat;
+    float:left;
+    border-right:solid 1px #000;
+}
+
+
+ul#menu-comprar li .tab.read{
+    background-image:url("../img/icono-cesta.png");
+}
+
+
+ul#menu-comprar li .text{
+    position:relative;
+    float:left;
+    display:block;
+    width:150px;
+    font-size:20px;
+    line-height:28px;
+   padding: 12px 0 0 14px;
+}
+
+ul#menu-comprar li .comprar-img {
+    left: -16px;
+    position: relative;
+    top: -40px;
+
+
+}
+

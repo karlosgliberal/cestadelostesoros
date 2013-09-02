@@ -65,19 +65,20 @@ section {
 }
 
 #s-uno {
-background-image: url("../img/bg1.jpg");
-background-repeat: no-repeat;
+background-image: url("../img/bg1.jpg"), url("../img/licuar.png") ;
+background-repeat: no-repeat, repeat-x;
 /*background-size: cover;*/
 padding-bottom: 200px;
-background-position: 50% 0%;
+background-position: 50% 0%, 0% 0%;
+background-color: #F5E8DF;
 
 }
 
 #s-dos {
-background-image: url("../img/bg2.jpg");
-background-repeat: no-repeat;
+background-image: url("../img/bg2.jpg"), url("../img/licuar3.png");
+background-repeat: no-repeat, repeat-x;
 padding-bottom: 350px;
-background-position: 50% 0%;
+background-position: 50% 0%, 50% 0%;
 
 
 }
@@ -825,7 +826,7 @@ ul.fc-slides li p {
 }
 
 .video-frame {
-    background-color: #fff;
+    background-color: #E8E1D9;
     background-image: url("../img/bg31.jpg");
     background-position: 50% 50%;
     background-repeat: no-repeat;

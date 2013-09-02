@@ -123,7 +123,7 @@ padding-bottom: 100px;
 /*    font-family: "Georgia", serif;*/
         font-family: "Fair", serif;
     font-size: 14px;
-    letter-spacing: 0.6px;
+/*    letter-spacing: 0.6px;*/
     height: 45px;
     padding: 0;
   
@@ -361,7 +361,7 @@ a#mueve
  {
 font-size: 1.5em;
 font-weight: bold;
-letter-spacing: -1px;
+/*letter-spacing: -1px;*/
 text-align: center;
 }
 
@@ -743,11 +743,15 @@ ul.fc-slides li {
 
 
 #fc-slideshow span {
-    font-size: 1.5em;
-    font-weight: bold;
+/*    font-size: 1.5em;
+    font-weight: bold;*/
 /*    letter-spacing: -1px;*/
 /*    font-family: "Georgia", sans-serif;*/
-    color: #767676;
+    color: #595959;
+    font-family: 'Tesoro';
+    font-size: 1.7em;
+    font-weight: bold;
+
 }
 
 
@@ -1076,7 +1080,7 @@ section#s-tres {
 
 #footer span.contacta {
 font-size: 2.3em;
-letter-spacing: 1px;
+/*∫*/
 padding: 0px 10px;
 }
 

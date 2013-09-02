@@ -61,7 +61,7 @@ h1, h2, h3, h4 {
 /*Sections*/
 
 section {
-    background-color: #fff;
+    background-color: #E8E1D9;
 }
 
 #s-uno {
@@ -70,15 +70,15 @@ background-repeat: no-repeat, repeat-x;
 /*background-size: cover;*/
 padding-bottom: 200px;
 background-position: 50% 0%, 0% 0%;
-background-color: #F5E8DF;
+
 
 }
 
 #s-dos {
-background-image: url("../img/bg2.jpg"), url("../img/licuar3.png");
-background-repeat: no-repeat, repeat-x;
+background-image: url("../img/bg2.jpg");
+background-repeat: no-repeat;
 padding-bottom: 350px;
-background-position: 50% 0%, 50% 0%;
+background-position: 50% 0%;
 
 
 }
@@ -87,14 +87,27 @@ background-position: 50% 0%, 50% 0%;
 
 #s-cuatro {
 
-background: url("../img/textura.png") repeat;
-padding-bottom: 100px;
+}
+
+.como-utilizarlo-wrapper {
+ background: url("../img/textura.jpg") no-repeat;
+ padding-bottom: 100px;
+ width: 100%;
+ margin: 0 auto;
+     background-position: 50% 50%;
 }
 
 
 #s-cinco {
-min-height: 800px;
-background: url("../img/textura1.jpg") repeat;
+
+/*background: url("../img/textura1.jpg") repeat;*/
+}
+
+.beneficios-wrapper {
+    background: url("../img/textura1.jpg") no-repeat;
+    margin: 0 auto;
+    min-height: 800px;
+    background-position: 50% 50%;
 }
 
 
@@ -107,9 +120,16 @@ background-repeat: no-repeat;
 
 
 #s-siete {
-	background: url("../img/textura-descubre.png") repeat;
-padding-bottom: 100px;
 
+}
+
+
+.descubre-wrapper {
+background: url("../img/textura-descubre.jpg") repeat-y;
+padding-bottom: 100px;
+    margin: 0 auto;
+    width: 100%;
+    background-position: 50% 50%;
 }
 
 #footer {

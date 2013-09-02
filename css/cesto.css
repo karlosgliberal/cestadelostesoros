@@ -1118,23 +1118,25 @@ padding: 0px 40px;
 
 
 .f-contacta {
-font-size: 1.3em;
-line-height:2em;
-    font-style: italic;
+   font-size: 1.6em;
+    font-weight: bold;
 }
 
 .todo-contacta {
     font-size: 1em;
     line-height: 0;
+    margin-left: 10px;
 }
 
 .tienda-contacta {
     font-size: 1em;
     line-height: 0;
-        line-height: 4em;
 }
 
+.contactar-footer img { 
+    margin-right: 5px;
 
+}
 
 .contactar-footer {
     padding: 20px 0px 0px 40px;

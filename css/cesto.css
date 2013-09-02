@@ -42,7 +42,7 @@ body {
 }
 
 strong {
-    color:#F94600;
+    color:#BC1727;
     font-weight: 400;
 }
 
@@ -124,7 +124,7 @@ padding-bottom: 100px;
         font-family: "Fair", serif;
     font-size: 14px;
 /*    letter-spacing: 0.6px;*/
-    height: 45px;
+       height: 47px;
     padding: 0;
   
     
@@ -151,8 +151,8 @@ padding-bottom: 100px;
 .section-nav li {
     background-color: #000000;
     display: inline-block;
-    font-size: 1em;
-    padding: 10px 6px;
+    font-size: 1.2em;
+    padding: 10px 12px;
     
    }
 
@@ -1070,7 +1070,7 @@ section#s-tres {
 }
 
 .video-img {
-    padding-top: 40px;
+    padding-top: 14px;
 }
 
 .snow {

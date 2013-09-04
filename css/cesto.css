@@ -447,10 +447,10 @@ text-align: center;
 }
 
 
-a.evento .c-enlace1
+a#tumbado .evento p
 
 {
-    color: #595959;
+    color: red;
     text-align: center;
 }
 
@@ -1283,7 +1283,11 @@ margin: 0;
 line-height: 1em;
   font-weight: bold;
   font-size: 1.1em;
+  color: #B0B0B0;
+}
 
+.evento p  {
+ color: #595959 !important;
 }
 
 

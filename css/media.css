@@ -98,14 +98,14 @@ width: 70%;
 
 .section-nav li {
 
-background-color: #000000;
-display: inline-block;
-font-size: 0.567em;
-padding: 10px 5px;
+    background-color: #000000;
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 10px 7px;
 }
 
 #menu {
-    height: 32px;
+    height: 41px;
 }
 
 p {
@@ -202,6 +202,34 @@ section#s-tres
 .video-img {
     text-align: center;
 }
+
+.comprar-img {
+  display: none;
+}
+
+.cesto-img {
+    width: 100%;
+}
+
+#mueve p, #sentado p, #tumbado p {
+    color: #B0B0B0;
+    font-size: 0.9em;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+
+#menu-comprar {
+  display: none;
+}
+
+#footer p.todo-contacta {
+    color: #FFFFFF;
+    padding-left: 13px;
+    text-align: left;
+}
+
 
 
 }

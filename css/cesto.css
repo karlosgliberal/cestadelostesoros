@@ -471,7 +471,12 @@ Efecto*/
     -webkit-perspective: 1200px;
     -moz-perspective: 1200px;
     perspective: 1200px;
+/*    background: url("../img/circulo.png") no-repeat center;*/
 }
+
+
+
+
 
 .fc-slideshow nav {
     top: 0;

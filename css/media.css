@@ -10,7 +10,7 @@
     background-position: bottom;
     background-repeat: no-repeat;
     padding-bottom: 280px;
-    
+    padding-top: 70px;
 }
 
 
@@ -56,10 +56,11 @@ margin-bottom: 20px;
   
 h2.tesoro { 
 text-align: center;
+font-size: 3em;
 }
 
 h2.tit { 
-font-size: 2.5em;
+font-size: 3em;
 margin: 0 0 26px;
 text-align: center
 }
@@ -190,7 +191,7 @@ section#s-cinco-responsive ,
 section#s-seis,
 section#s-tres
  {
-    padding-top: 80px;
+    padding-top: 30px;
 }
 
 #footer .logo {
@@ -199,7 +200,7 @@ section#s-tres
 }
 
 
-.video-img {
+.video-img-responsive {
     text-align: center;
 }
 
@@ -213,10 +214,10 @@ section#s-tres
 
 #mueve p, #sentado p, #tumbado p {
     color: #B0B0B0;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: normal;
     line-height: 1.5em;
-    margin: 0;
+    margin: 0 2em;
 }
 
 
@@ -230,6 +231,28 @@ section#s-tres
     text-align: left;
 }
 
+p.f-contacta {
+  margin: 0;
+
+}
+.redes-wrapper {
+ padding-left: 84px;
+}
+
+
+#footer {
+    background: url("../img/textura-f-responsive.png") repeat scroll 0 0 transparent;
+}
+
+
+.nosotros-wrapper {
+    padding-left: 84px;
+    padding-top: 10px;
+}
+
+#player-responsive {
+    display: block;
+}
 
 
 }
@@ -250,7 +273,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 539px) 
     background-position: bottom;
     background-repeat: no-repeat;
     padding-bottom: 280px;
-    
+    padding-top: 70px;
 }
 
 
@@ -296,10 +319,11 @@ margin-bottom: 20px;
   
 h2.tesoro { 
 text-align: center;
+font-size: 3em;
 }
 
 h2.tit { 
-font-size: 2.5em;
+font-size: 3em;
 margin: 0 0 26px;
 text-align: center
 }
@@ -338,14 +362,14 @@ width: 70%;
 
 .section-nav li {
 
-background-color: #000000;
-display: inline-block;
-font-size: 0.567em;
-padding: 10px 5px;
+    background-color: #000000;
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 10px 7px;
 }
 
 #menu {
-    height: 32px;
+    height: 41px;
 }
 
 p {
@@ -430,20 +454,72 @@ section#s-cinco-responsive ,
 section#s-seis,
 section#s-tres
  {
-    padding-top: 80px;
+    padding-top: 30px;
 }
+
 #footer .logo {
     padding-top: 50px;
     text-align: center;
 }
-.video-img {
+
+
+.video-img-responsive {
     text-align: center;
 }
 
+.comprar-img {
+  display: none;
+}
+
+.cesto-img {
+    width: 100%;
+}
+
+#mueve p, #sentado p, #tumbado p {
+    color: #B0B0B0;
+    font-size: 0.8em;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 0 2em;
+}
 
 
+#menu-comprar {
+  display: none;
+}
+
+#footer p.todo-contacta {
+    color: #FFFFFF;
+    padding-left: 13px;
+    text-align: left;
+}
+
+p.f-contacta {
+  margin: 0;
 
 }
+.redes-wrapper {
+ padding-left: 84px;
+}
+
+
+#footer {
+    background: url("../img/textura-f-responsive.png") repeat scroll 0 0 transparent;
+}
+
+
+.nosotros-wrapper {
+    padding-left: 84px;
+    padding-top: 10px;
+}
+
+
+#player-responsive {
+    display: block;
+}
+
+}
+
 
 
 /*Solo modo horizontal*/

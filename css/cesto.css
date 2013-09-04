@@ -1080,7 +1080,7 @@ padding: 0px;
 
 
 section#s-tres .title-wrapper {
-   padding-top: 220px;
+   padding-top: 142px;
 }
 
 section#s-tres {
@@ -1115,7 +1115,7 @@ padding: 0px 40px;
  background: url("../img/textura.png") repeat scroll 0 0 transparent;
 }
 
-#video-play-responsive {
+#player-responsive {
     display: none;
 }
 
@@ -1290,3 +1290,10 @@ line-height: 1em;
 .comprar a:hover {
  opacity: 0.9;
 }
+
+
+.cesto-img {
+ margin: 0 auto;
+width: 600px;
+}
+

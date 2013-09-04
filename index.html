@@ -22,7 +22,6 @@
     <div class="row">
       <div class="large-12 columns">
         <div class="title-wrapper">
-<!--           <div class="large-8 large-offset-4 columns img-principal"><img src="img/logo-principal.png" alt="El cesto de los tesoros"></div> -->
           <div class="large-8 large-offset-4 columns pre">El cesto de los tesoros</div>
         </div>
           <div class="large-4 columns uno">
@@ -62,7 +61,7 @@
       <div id="section-nav" class="section-nav" >
               <ul class="nav">
                 <li><a id="enlace-uno" href="#s-dos" class="active">¿Qué es?</a></li>
-                <li><a id="enlace-uno" href="#s-tres" class="active">Vídeo</a></li>
+                <li><a id="enlace-uno" href="#s-tres" class="">Vídeo</a></li>
                 <li><a id="enlace-cuatro" href="#s-cuatro" class="">Uso</a></li>
                 <li><a id="enlace-cinco" href="#s-cinco" class="">Beneficios</a></li>
                 <li><a id="enlace-seis" href="#s-seis" class="">El adulto</a></li>
@@ -122,8 +121,8 @@
          <a href="#" id="video_boton"><img src="img/v.png" alt="Vídeo"></a>
         </div>
 
-        <div id="video-play-responsive" class="video-img">
-             <a target="_blank" href="http://player.vimeo.com/video/71340975" id="video_boton"><img src="img/v.png" alt="Vídeo"></a>
+        <div id="player-responsive" class="video-img-responsive">
+             <a target="_blank" href="http://player.vimeo.com/video/71340975" id="video_boton_resp"><img src="img/v.png" alt="Vídeo"></a>
         </div>
 
      </div> 
@@ -262,7 +261,6 @@
                       </p>
                   </div>
               </li>
-
               <li>
 
                   <div class="circle-texto decisiones"><p>
@@ -395,8 +393,10 @@
     <section id="s-siete">
       <div class="descubre-wrapper">
      <div class="row">
-      <div class="large-12 columns cesto-img">
+      <div class="large-12 columns">
+        <div class="cesto-img">
         <img src="img/cesto.gif" alt="Cesto de los tesoros">
+      </div>
    
       </div>
 
@@ -472,20 +472,6 @@
     <div class="small-5 small-centered columns comprar"><a class="large button radius" href="http://tienda.cestodelostesoros.com">¡Quiero uno!</a></div>
 </div>
     </section>
-<!--     <section id="footer">
-      <div class="row">
-        <div class="small-10 small-centered columns footer-texto">
-          <p>
-            <span>
-              Si desea contactar con nosotros: <a href="mailto:hola@cestodelostesoros.com">hola@cestodelostesoros.com</a>
-            </span>
-            <span class="tienda">
-          <a href="http://tienda.cestodelostesoros.com" target="_blank">   Visite nuestra tienda</a><strong> ></strong> <img src="img/icono-cesta.png" alt="Visite nuestra tienda">   <span> 
-          </p>
-  
-        </div>
-      </div>
-    </section> -->
       <section id="footer">
       <div class="row">
         <div class="large-4 columns contactar-footer">
@@ -558,5 +544,15 @@
       $(function(){
       })
     </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42877220-1', 'cestodelostesoros.com');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>

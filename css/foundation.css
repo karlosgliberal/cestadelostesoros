@@ -1324,22 +1324,22 @@ button, .button {
   padding-left: 1.5em;
   font-size: 2em;
   color: white; 
-background: #e6338c; 
-background: -moz-linear-gradient(top,  #e6338c 0%, #cd2b7d 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6338c), color-stop(100%,#cd2b7d)); 
-background: -webkit-linear-gradient(top,  #e6338c 0%,#cd2b7d 100%); 
-background: -o-linear-gradient(top,  #e6338c 0%,#cd2b7d 100%); 
-background: -ms-linear-gradient(top,  #e6338c 0%,#cd2b7d 100%);
-background: linear-gradient(to bottom,  #e6338c 0%,#cd2b7d 100%); 
+background: #BC1727; 
+background: -moz-linear-gradient(top,  #BC1727 0%, #BC1727 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#BC1727), color-stop(100%,#BC1727)); 
+background: -webkit-linear-gradient(top,  #BC1727 0%,#BC1727 100%); 
+background: -o-linear-gradient(top,  #BC1727 0%,#BC1727 100%); 
+background: -ms-linear-gradient(top,  #BC1727 0%,#BC1727 100%);
+background: linear-gradient(to bottom,  #BC1727 0%,#BC1727 100%); 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6338c', endColorstr='#cd2b7d',GradientType=0 ); 
 }
   button:hover, button:focus, .button:hover, .button:focus {
     background-color: #2284a1; }
   button:hover, button:focus, .button:hover, .button:focus {
-background: -moz-linear-gradient(top,  #cd2b7d 0%, #cd2b7d 100%);
-background: -webkit-linear-gradient(top,  #cd2b7d 0%, #cd2b7d 100%);
-background: -o-linear-gradient(top,  #cd2b7d 0%, #cd2b7d 100%);
-background: -ms-linear-gradient(top,  #cd2b7d 0%, #cd2b7d 100%);
+background: -moz-linear-gradient(top,  #BC1727 0%, #BC1727 100%);
+background: -webkit-linear-gradient(top,  #BC1727 0%, #BC1727 100%);
+background: -o-linear-gradient(top,  #BC1727 0%, #BC1727 100%);
+background: -ms-linear-gradient(top,  #BC1727 0%, #BC1727 100%);
 color:#fff;
 
      }

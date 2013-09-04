@@ -42,13 +42,13 @@ body {
 }
 
 strong {
-    color:#BC1727;
-    font-weight: 400;
+     font-weight: bold;
+   
 }
 
 #fc-slideshow strong {
-    color: #BC1727;
-    font-weight: 400;
+    
+    font-weight: bold;
 }
 
 
@@ -65,11 +65,11 @@ section {
 }
 
 #s-uno {
-background-image: url("../img/bg1.jpg"), url("../img/licuar.png") ;
+background-image: url("../img/bg1.jpg");
 background-repeat: no-repeat, repeat-x;
-/*background-size: cover;*/
-padding-bottom: 200px;
-background-position: 50% 0%, 0% 0%;
+background-position: 50% 0%;
+padding-bottom: 290px;
+padding-top: 160px;
 
 
 }
@@ -114,7 +114,7 @@ background-position: 50% 50%;
 #s-seis {
 background-image: url("../img/bg4.jpg");
 padding-bottom: 100px;
-background-position: 50% 50%;
+ background-position: 50% 17%;
 background-repeat: no-repeat;
 }
 
@@ -145,7 +145,7 @@ padding-bottom: 100px;
         font-family: "Fair", serif;
     font-size: 14px;
 /*    letter-spacing: 0.6px;*/
-       height: 47px;
+       height: 49px;
     padding: 0;
   
     
@@ -172,7 +172,7 @@ padding-bottom: 100px;
 .section-nav li {
     background-color: #000000;
     display: inline-block;
-    font-size: 1.2em;
+    font-size: 1.3em;
     padding: 10px 12px;
     
    }
@@ -415,8 +415,8 @@ text-align: center;
 }
 
 .texto-como p {
-   font-size: 1.2em; 
-   font-style: italic;
+   font-size: 1.5em; 
+   
 }
 
 .c-enlace {
@@ -426,7 +426,7 @@ text-align: center;
 
 
 #s-cuatro a {
-   
+
     color: #B0B0B0;
 }
 
@@ -764,12 +764,7 @@ ul.fc-slides li {
 
 
 #fc-slideshow span {
-/*    font-size: 1.5em;
-    font-weight: bold;*/
-/*    letter-spacing: -1px;*/
-/*    font-family: "Georgia", sans-serif;*/
     color: #595959;
-    font-family: 'Tesoro';
     font-size: 1.7em;
     font-weight: bold;
 
@@ -848,9 +843,9 @@ ul.fc-slides li p {
 .video-frame {
     background-color: #E8E1D9;
     background-image: url("../img/bg31.jpg");
-    background-position: 50% 50%;
+    background-position: 50% 100%;
     background-repeat: no-repeat;
-    min-height: 631px;
+    padding-bottom: 93px;
 
 
 }
@@ -935,7 +930,7 @@ Efecto circulo*/
     border-radius: 50%;
     overflow: hidden;
     position: absolute;
-    box-shadow: inset 0 0 0 10px rgba(226,51,140, 1);
+    box-shadow: inset 0 0 0 10px rgba(188,23,39, 1);
     
     -webkit-transform-origin: 95% 40%;
     -moz-transform-origin: 95% 40%;
@@ -994,7 +989,7 @@ Efecto circulo*/
     height: 100%;
     border-radius: 50%;
     overflow: hidden;
-    background-color: #E2338C;
+    background-color: #BC1727;
     box-shadow: inset 0 0 0 5px rgba(0,0,0,0.05);
 }
 
@@ -1012,13 +1007,15 @@ Efecto circulo*/
 
 
 .ch-item:hover .ch-thumb {
-    box-shadow: inset 0 0 0 10px rgba(226,51,140, 0.8), 0 1px 3px rgba(0,0,0,0.2);
+    box-shadow: inset 0 0 0 10px rgba(188,23,39, 0.8), 0 1px 3px rgba(0,0,0,0.2);
     -webkit-transform: rotate(-120deg);
     -moz-transform: rotate(-120deg);
     -o-transform: rotate(-120deg);
     -ms-transform: rotate(-120deg);
     transform: rotate(-120deg);
 }
+
+
 
 .ch-grid {
     padding: 0;
@@ -1083,7 +1080,7 @@ padding: 0px;
 
 
 section#s-tres .title-wrapper {
-    padding-top: 100px;
+   padding-top: 220px;
 }
 
 section#s-tres {
@@ -1261,4 +1258,35 @@ padding-top: 10px;
 
 #footer .creditos p a {
     color: #B5BAB8;
+}
+
+
+#s-tres p {
+padding-top: 20px;
+
+}
+
+#s-dos p {
+
+}
+
+.l-objek img {
+ padding-top: 5px;
+}
+
+
+#mueve p,
+#sentado p,
+#tumbado p
+ {
+margin: 0;
+line-height: 1em;
+  font-weight: bold;
+  font-size: 1.1em;
+
+}
+
+
+.comprar a:hover {
+ opacity: 0.9;
 }

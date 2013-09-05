@@ -31,7 +31,7 @@
 }
 
 
-/*@media screen and (-webkit-min-device-pixel-ratio:0) {
+@media screen and (-webkit-min-device-pixel-ratio:0) {
 
 strong {
      font-family: "Tesoro2", serif;
@@ -39,7 +39,19 @@ strong {
 }
 
 
-}*/
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+strong {
+  -webkit-text-stroke: .25px 
+  -webkit-font-smoothing: none; 
+}
+
+
+}
+
 
 
 p {

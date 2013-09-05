@@ -22,8 +22,7 @@
 
 @font-face {
     font-family: 'Fair';
-    src: url('../fonts/FairpNarBoo.eot');
-    src: local('?'),
+    src: url('../fonts/FairpNarBoo.eot'),
     url('../fonts/FairpNarBoo.ttf') format('truetype'), 
     url('../fonts/FairpNarBoo.woff') format('woff'), 
     url('../fonts/FairpNarBoo.svg') format('svg');
@@ -57,14 +56,6 @@ strong {
      font-weight: bold;
 
 }
-
-
-/*@media all and (-webkit-min-device-pixel-ratio: 0){ 
-strong {
-    font-family: "Tesoro2",serif;
-
-   
-}*/
 
 
 } 

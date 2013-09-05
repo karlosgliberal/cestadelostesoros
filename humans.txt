@@ -1,2 +1,11 @@
-/* Interzonas */
+/* Las personas que han participado en el proyecto http://cestodelostesoros.com */
+Unai Maleski (@maleski) en Branding. Naming. Creativity. Art Direction
+Jero [Funtsak.net] en el Vídeo
+Aitor resano [interzonas.info] Css, html5, responsive, etc 
+Karlos g liberal [interzonas.info] (@patxangas) js, html5, consultor
+Imanol Amas fotografías
+Canción del vídeo Apple seeds http://animicmusic.tumblr.com/
+Miren Arrese [Cestos de los tesoros] Promotora del proyecto
+
+
 

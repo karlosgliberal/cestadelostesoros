@@ -1,39 +1,5 @@
 $(document).ready(function(){
-/*
-  $(window).stellar({
-     // Set scrolling to be in either one or both directions
-  horizontalScrolling: false,
-    verticalScrolling: true,
-    
-    // Set the global alignment offsets
-    horizontalOffset: 0,
-    verticalOffset: 0,
-    
-    // Refreshes parallax content on window load and resize
-    responsive: true,
-    
-    // Select which property is used to calculate scroll.
-    // Choose 'scroll', 'position', 'margin' or 'transform',
-    // or write your own 'scrollProperty' plugin.
-    scrollProperty: 'scroll',
-    
-    // Select which property is used to position elements.
-    // Choose between 'position' or 'transform',
-    // or write your own 'positionProperty' plugin.
-    positionProperty: 'position',
-    
-    // Enable or disable the two types of parallax
-    parallaxBackgrounds: true,
-    parallaxElements: true,
-    
-    // Hide parallax elements that move outside the viewport
-    hideDistantElements: true,
-    
-    // Customise how elements are shown and hidden
-    hideElement: function($elem) { $elem.hide(); },
-    showElement: function($elem) { $elem.show(); }
-    });
-*/
+
 if(!$.browser){
     $.browser={
       chrome:false,
@@ -130,36 +96,3 @@ if(!$.browser){
       $('.icon-arrow-left').removeClass('primerhover');
    });
 });
-/*  $.fn.copyCSS = function(source){
-    var dom = $(source).get(0);
-    var style;
-    var dest = {};
-    if(window.getComputedStyle){
-        var camelize = function(a,b){
-            return b.toUpperCase();
-        };
-        style = window.getComputedStyle(dom, null);
-        for(var i = 0, l = style.length; i < l; i++){
-            var prop = style[i];
-            var camel = prop.replace(/\-([a-z])/g, camelize);
-            var val = style.getPropertyValue(prop);
-            dest[camel] = val;
-        };
-        return this.css(dest);
-    };
-    if(style = dom.currentStyle){
-        for(var prop in style){
-            dest[prop] = style[prop];
-        };
-        return this.css(dest);
-   };
-   if(style = dom.style){
-      for(var prop in style){
-        if(typeof style[prop] != 'function'){
-          dest[prop] = style[prop];
-        };
-      };
-    };
-    return this.css(dest);
-  };
-*/

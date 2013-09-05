@@ -22,13 +22,25 @@
 
 @font-face {
     font-family: 'Fair';
-    src: url('../fonts/FairpNarBoo.eot'),
-    url('../fonts/FairpNarBoo.woff') format('woff'), 
+    src: url('../fonts/FairpNarBoo.eot');
+    src: local('?'),
     url('../fonts/FairpNarBoo.ttf') format('truetype'), 
+    url('../fonts/FairpNarBoo.woff') format('woff'), 
     url('../fonts/FairpNarBoo.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
+
+
+/*@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+strong {
+     font-family: "Tesoro2", serif;
+     font-size:1.017em;
+}
+
+
+}*/
 
 
 p {
@@ -43,9 +55,19 @@ body {
 
 strong {
      font-weight: bold;
-   
+
 }
 
+
+/*@media all and (-webkit-min-device-pixel-ratio: 0){ 
+strong {
+    font-family: "Tesoro2",serif;
+
+   
+}*/
+
+
+} 
 #fc-slideshow strong {
     
     font-weight: bold;
@@ -1153,8 +1175,7 @@ ul#menu-comprar li{
     transition:all 260ms cubic-bezier(0.26,0.67,0.27,1);
     height:50px;
     width:321px;
-    /*box-shadow:0 0 3px rgba(0,0,0,0.5);*/
-    cursor:pointer;
+  
 }
 
 ul#menu-comprar li:hover{
@@ -1174,6 +1195,7 @@ ul#menu-comprar li .tab{
 
 ul#menu-comprar li .tab.read{
     background-image:url("../img/icono-cesta.png");
+     cursor:pointer;
 }
 
 
@@ -1187,12 +1209,17 @@ ul#menu-comprar li .text{
    padding: 12px 0 0 14px;
 }
 
-ul#menu-comprar li .comprar-img {
+ul#menu-comprar li img {
     left: -16px;
     position: relative;
     top: -43px;
 
 }
+
+ul#menu-comprar .text a:hover {
+    color: #fff;
+}
+
 
 
 .redes p.todo-contacta {
@@ -1270,3 +1297,4 @@ width: 600px;
     max-width: 62.5em;
     width: 100%;
 }
+

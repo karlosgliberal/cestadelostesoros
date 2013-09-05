@@ -141,11 +141,9 @@ padding-bottom: 100px;
 
 #menu{
     background-color: #000;
-/*    font-family: "Georgia", serif;*/
-        font-family: "Fair", serif;
+    font-family: "Fair", serif;
     font-size: 14px;
-/*    letter-spacing: 0.6px;*/
-       height: 49px;
+    height: 49px;
     padding: 0;
   
     
@@ -222,26 +220,6 @@ width: 32%;
 }
 
 
-/*H1 H2 */
-/*
-h2.tit {
-margin: 0;	
-padding: 0px 0px 0px 5px;
-font-family: "Georgia",serif;
-font-style: normal;
-font-weight: bold;	
-color: #595959;
-font-size: 2.7em;
-letter-spacing: -2px;
-	transform: scale(1, 1.2); 
-    -webkit-transform:scale(1, 1.2); 
-    -moz-transform:scale(1, 1.2); 
-    -ms-transform:scale(1, 1.2); 
-    -o-transform:scale(1, 1.2); 
-}
-*/
-
-
 h2.tit {
 margin: 0;  
 padding: 0px 0px 0px 5px;
@@ -290,7 +268,6 @@ padding: 0;
 
 
 .pre {
-/*	font-family: "Georgia",serif;*/
     font-size: 1.7em;
     color: #595959;
     padding: 0px 0px 0px 5px;
@@ -319,7 +296,6 @@ ul.s-como li {
 .descubre-texto p {
 	text-align: center;	
 	padding-top: 10px;
-/*	font-family: "Georgia", Sans-Serif;*/
 	font-weight: 400;
 	color: #6C6C6C;
 }
@@ -382,7 +358,6 @@ a#mueve
  {
 font-size: 1.5em;
 font-weight: bold;
-/*letter-spacing: -1px;*/
 text-align: center;
 }
 
@@ -471,7 +446,6 @@ Efecto*/
     -webkit-perspective: 1200px;
     -moz-perspective: 1200px;
     perspective: 1200px;
-/*    background: url("../img/circulo.png") no-repeat center;*/
 }
 
 
@@ -529,7 +503,6 @@ Efecto*/
     height: 10px;
     top: 50%;
     margin-top: -20px;
- /*   pointer-events: none;*/
     opacity: 0;
     -webkit-backface-visibility: hidden;
     -webkit-transition: all 0.2s ease;
@@ -561,12 +534,6 @@ Efecto*/
 
 }
 
-/*.fc-slideshow nav .fc-right i {
-    -webkit-transform-origin: 0% 50%;
-    -moz-transform-origin: 0% 50%;
-    transform-origin: 0% 50%;
-    text-align: right;
-}*/
 
 .fc-slideshow nav i.icon-arrow-left {
     left: 150px;
@@ -742,14 +709,12 @@ ul.fc-slides li {
 .fc-left {
     position: relative;
     left: -242px;
-/*    background-color: #ccc;*/
 }
 
 
 .fc-right {
         position: relative;
     left: 420px;
-/*    background-color: #dadada;*/
 }
 
 .fc-slideshow .circle-texto {
@@ -881,12 +846,6 @@ ul.fc-slides li p {
 color: #BC1727;
 text-decoration: underline;
 }
-
-/*.row {
-    border-left: 1px solid red;
-    border-right: 1px solid red;
-}
-*/
 
 .cesto-img {
     padding-top: 100px;
@@ -1306,6 +1265,8 @@ line-height: 1em;
 width: 600px;
 }
 
-/*.zzz {
-    background: url("../img/circulo.png") center no-repeat;
-}*/
+.sub-video {
+    margin: 0 auto;
+    max-width: 62.5em;
+    width: 100%;
+}

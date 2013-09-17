@@ -40,6 +40,19 @@ if(!$.browser){
 
     });
 
+
+
+$('a.scroll').smoothScroll({
+      afterScroll: function() {
+      },
+      easing: 'swing',
+      speed: 2000,
+      autoCoefficent: 3
+
+    });
+
+
+
    $('#slideshow').cycle({
    	  timeout: 0,
    	  fx:      'scrollRight',

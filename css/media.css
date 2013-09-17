@@ -522,6 +522,38 @@ p.f-contacta {
 
 
 
+@media only screen and (min-width: 1300px) and (max-width: 1396px){
+.texto-descubre p {
+ margin-bottom: 0.4em;
+}
+
+.comprar {
+    padding-top: 0;
+}
+.cesto-img {
+    padding-top: 67px;
+} 
+
+.ch-grid li {
+    display: inline-block;
+    height: 150px;
+    margin: 15px 40px;
+    width: 150px;
+}
+
+.title-wrapper-cesto {
+    padding-top: 0px;
+}
+
+}
+
+
+
+
+
+
+
+
 /*Solo modo horizontal*/
 
 @media only screen and (orientation:portrait) and (max-width: 767px) {

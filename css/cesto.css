@@ -368,10 +368,10 @@ letter-spacing: 1px;
     opacity: 0.9;
 }
 
-#footer .logo {
+/*#footer .logo {
     padding-top: 55px;
 }
-
+*/
 /*
 Movimiento */
 
@@ -1325,5 +1325,34 @@ width: 600px;
 #materiales-ancla {
     position:  relative;
     top: -120px;
+}
+
+.button-m {
+ackground: linear-gradient(to bottom, #ccc 0%, #ccc 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 0;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 1em;
+    font-style: italic;
+    line-height: 1;
+    margin: 0 0 1.25em;
+    padding: 0.3em 0.7em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+.button-m a:hover {
+    opacity: 0.8;
+}
+
+#mc-embedded-subscribe button {
+   
 }
 

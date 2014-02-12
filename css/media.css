@@ -268,7 +268,7 @@ only screen and (        min-device-pixel-ratio: 2)      and (min-width: 539px),
 only screen and (                min-resolution: 192dpi) and (min-width: 539px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 539px) {
   /* Large screen, retina */
-#s-uno {
+/*#s-uno {
     background-image: url("../img/bg1-mv1.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
@@ -325,7 +325,8 @@ font-size: 3em;
 h2.tit { 
 font-size: 3em;
 margin: 0 0 26px;
-text-align: center
+text-align: center;
+border: 3px dotted #fcc;
 }
 
 
@@ -516,7 +517,7 @@ p.f-contacta {
 
 #player-responsive {
     display: block;
-}
+}*/
 
 }
 

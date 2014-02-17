@@ -1,4 +1,4 @@
-/* Las personas que han participado en el proyecto http://cestodelostesoros.com  **/
+/** Las personas que han participado en el proyecto http://cestodelostesoros.com  **/
 Unai Maleski (@maleski) en Branding. Naming. Creativity. Art Direction
 Jero [Funtsak.net] en el Vídeo
 Aitor resano [interzonas.info] Css, html5, responsive, etc 

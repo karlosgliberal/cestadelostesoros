@@ -1347,12 +1347,144 @@ ackground: linear-gradient(to bottom, #ccc 0%, #ccc 100%) repeat scroll 0 0 rgba
 
 }
 
-
 .button-m a:hover {
     opacity: 0.8;
 }
 
-#mc-embedded-subscribe button {
-   
+/*Overlay*/
+
+
+#overlay{ /* we set all of the properties for are overlay */
+    width:60%;
+    margin:0 auto;
+    color:black;
+    padding:50px;
+    position:absolute;
+    top:50px;
+    left:22%;
+    z-index:1000;
+    display:none;
+    text-align: center;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -o-border-radius:10px;
+    border-radius:10px;
+}
+
+
+
+.wrapper-promo {
+    margin:0 auto;
+    color:black;
+    padding:50px;
+    position:absolute;
+    top:50px;
+    z-index:1000;
+    text-align: center;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -o-border-radius:10px;
+    border-radius:10px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 3px 4px 250px #D4D4D4 inset;
+}
+
+#mask{ /* create are mask */
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.6);
+    z-index:500;
+    width:100%;
+    height:100%;
+    display:none;
+    padding-top: 200px;
+}
+/* use :target to look for a link to the overlay then we find are mask */
+#overlay:target, #overlay:target + #mask{
+    display:block;
+    opacity:1;
+}
+.close{ /* to make a nice looking pure CSS3 close button */
+    display:block;
+    position:absolute;
+    top:-20px;
+    right:-20px;
+    background:#BC1727;
+    color:white;
+    height:40px;
+    width:40px;
+    line-height:40px;
+    font-size:35px;
+    text-decoration:none;
+    text-align:center;
+    font-weight:bold;
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    -o-border-radius:40px;
+    border-radius:40px;
+}
+
+.close a:hover, .close a:focus {
+      color:white; 
+      opacity: 0.9;
+}
+
+#open-overlay{ /* open the overlay */
+    
+
+}
+
+#promo {
+    padding: 0;
+    position: fixed;
+    right: 67px;
+    top: 0;
+    z-index: 1010;
+}
+
+
+
+.tesoro-promo {
+    color: #595959;
+    font-size: 3.5em;
+
+}
+
+.texto-promo {
+    color:#595959;
+    margin-top: 30px;
+    line-height: 1.6em;
+}
+
+.enlace-promo {
+    font-size: 1.5em;
+    color: #BC1727;
+
+}
+
+.btn-promo {
+    margin-top: 30px;
+}
+
+.codigo-marzo {
+    color: #BC1727;
+    padding: 0 13px;
+    border: 2px dashed;
+    margin: 0 4px;
+}
+
+.img-promo img {
+width: 19%;
+}
+
+.close-wrapper {
+    width: 100%;
+    height: 2em;
+}
+
+.jur {
+    height: 4em;
+    border: 3px solid red;
 }
 

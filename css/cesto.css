@@ -1464,7 +1464,7 @@ ackground: linear-gradient(to bottom, #ccc 0%, #ccc 100%) repeat scroll 0 0 rgba
 }
 
 .btn-promo {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .codigo-marzo {
@@ -1481,6 +1481,19 @@ width: 19%;
 .close-wrapper {
     width: 100%;
     height: 2em;
+}
+
+.boletin-promo {
+    font-size: 17px;
+    margin: 40px 0 0;
+}
+
+.boletin-promo a {
+   color:#595959;
+}
+
+.boletin-promo a:hover {
+    color: #BC1727;
 }
 
 .jur {

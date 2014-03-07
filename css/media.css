@@ -255,6 +255,9 @@ p.f-contacta {
     display: block;
 }
 
+#promo {
+  position: absolute;
+}
 
 }
 
@@ -549,7 +552,6 @@ p.f-contacta {
 }
 
 }
-
 
 
 /*Solo modo horizontal*/

@@ -57,7 +57,7 @@ margin-bottom: 20px;
 h2.tesoro { 
 text-align: center;
 font-size: 3em;
-border-bottom: 2px solid red;
+
 }
 
 h2.tit { 
@@ -321,7 +321,7 @@ margin-bottom: 20px;
 h2.tesoro { 
 text-align: center;
 font-size: 3em;
-/*border: 2px dotted blue;*/
+border-bottom: 2px solid red;
 }
 
 h2.tit { 

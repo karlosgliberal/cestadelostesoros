@@ -261,13 +261,14 @@ p.f-contacta {
 /*--------------------------------------------------------------------------------*/
 
 @media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 539px),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 539px),
-only screen and (   -moz-min-device-pixel-ratio: 2)      and (min-width: 539px),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 539px),
-only screen and (        min-device-pixel-ratio: 2)      and (min-width: 539px),
-only screen and (                min-resolution: 192dpi) and (min-width: 539px),
-only screen and (                min-resolution: 2dppx)  and (min-width: 539px) {
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 539px) and (max-width: 768px)  ,
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 539px) and (max-width: 768px)  ,
+only screen and (   -moz-min-device-pixel-ratio: 2)      and (min-width: 539px) and (max-width: 768px)  ,
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 539px) and (max-width: 768px)  ,
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 539px) and (max-width: 768px)  ,
+only screen and (                min-resolution: 192dpi) and (min-width: 539px) and (max-width: 768px)  ,
+only screen and (                min-resolution: 2dppx)  and (min-width: 539px) and (max-width: 768px)   {
+
 
 #s-uno {
     background-image: url("../img/bg1-mv1.jpg");
@@ -321,7 +322,7 @@ margin-bottom: 20px;
 h2.tesoro { 
 text-align: center;
 font-size: 3em;
-border-bottom: 2px solid red;
+
 }
 
 h2.tit { 

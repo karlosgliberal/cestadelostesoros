@@ -57,6 +57,7 @@ margin-bottom: 20px;
 h2.tesoro { 
 text-align: center;
 font-size: 3em;
+border-bottom: 2px solid red;
 }
 
 h2.tit { 
@@ -257,7 +258,7 @@ p.f-contacta {
 
 }
 
-
+/*--------------------------------------------------------------------------------*/
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 539px),
@@ -267,7 +268,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 539px),
 only screen and (        min-device-pixel-ratio: 2)      and (min-width: 539px),
 only screen and (                min-resolution: 192dpi) and (min-width: 539px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 539px) {
-  /* Large screen, retina */
+
 #s-uno {
     background-image: url("../img/bg1-mv1.jpg");
     background-position: bottom;
@@ -320,6 +321,7 @@ margin-bottom: 20px;
 h2.tesoro { 
 text-align: center;
 font-size: 3em;
+/*border: 2px dotted blue;*/
 }
 
 h2.tit { 
@@ -553,6 +555,7 @@ p.f-contacta {
 
 @media only screen and (orientation:portrait) and (max-width: 767px) {
         #cesto-wrapper { display:none; }
+        
         #warning-message { display:block; }
         body {background: url("../img/textura.png") repeat scroll 0 0 transparent;}
     }

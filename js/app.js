@@ -26,21 +26,21 @@ if(!$.browser){
     }
   });
 
+
   $('ul.nav a').smoothScroll({
       afterScroll: function() {
         $('ul.nav li a').each(function(){
           $(this).removeClass('active');
         })
-
         $(this).addClass('active')
+        var link = $(this);
+        ga.push(['_trackPageview', $link[0].text])
+        page(link[0].hash);
       },
       easing: 'swing',
       speed: 2000,
       autoCoefficent: 3
-
     });
-
-
 
 $('a.scroll').smoothScroll({
       afterScroll: function() {

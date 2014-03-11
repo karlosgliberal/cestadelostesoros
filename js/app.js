@@ -34,8 +34,8 @@ if(!$.browser){
         })
         $(this).addClass('active')
         var link = $(this);
-        ga.push(['_trackPageview', $link[0].text])
         page(link[0].hash);
+        ga.push(['_trackPageview', link[0].text])
       },
       easing: 'swing',
       speed: 2000,

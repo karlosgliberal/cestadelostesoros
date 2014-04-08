@@ -103,7 +103,7 @@ width: 70%;
     background-color: #000000;
     display: inline-block;
     font-size: 0.9em;
-    padding: 10px 7px;
+    padding: 10px 5px;
 }
 
 #menu {
@@ -577,7 +577,7 @@ and (orientation : portrait) {
 .section-nav li {
     display: inline-block;
     font-size: 0.9em;
-    padding: 10px 6px;
+    padding: 10px 4px;
 }
 }
 

@@ -211,6 +211,11 @@ background: url("../img/textura-descubre.jpg") repeat-y;
     transition: all 400ms ease 0s;
 }
 
+.btn-comprar a:hover {
+    opacity: 0.8;
+    transition: all 400ms ease 0s;
+}
+
 
 #section-nav {
 float: left;
@@ -1317,10 +1322,14 @@ width: 600px;
 }
 .abajo {
     padding-left: 25px;
-       animation:fade 3000ms infinite;
+     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
 
+.abajo-home {
+     animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}
 
 #materiales-ancla {
     position:  relative;
@@ -1499,5 +1508,15 @@ width: 19%;
 .jur {
     height: 4em;
     border: 3px solid red;
+}
+
+.flecha-wrapper {
+    width: 30px;
+}
+
+.flecha-down {
+left: 60%;
+position: relative;
+top: 93px;
 }
 
